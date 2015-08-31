@@ -1,0 +1,1734 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_34">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0167-577X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zou</foaf:surname>
+                        <foaf:givenname>Yaqin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Honglai</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenname>Pinyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenname>Jinyou</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ma</foaf:surname>
+                        <foaf:givenname>Liang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>Xiaoxia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fan</foaf:surname>
+                        <foaf:givenname>Xiaopeng</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shan</foaf:surname>
+                        <foaf:givenname>Zhengping</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhuang</foaf:surname>
+                        <foaf:givenname>Xiujuan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenname>Hong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenname>Xiaoli</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Qinglin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pan</foaf:surname>
+                        <foaf:givenname>Anlian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_35"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>growth</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Luminescence</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>mu-PL spectra</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Nanoribbons</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanowires</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>photoluminescence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Semiconductors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Structure defects</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>temperature</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>vapor-phase deposition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ZnSe</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Microphotoluminescence of individual ZnSe nanoribbons</dc:title>
+        <dcterms:abstract>ZnSe nanoribbons were synthesized and characterized with microphotoluminescence (mu-PL) spectra and mappings. The mu-PL results show that the near band edge (BE) and the deep defect (DD) level related emissions are predominantly located at the central and the edge region of the ribbons, respectively. Combining with the HRTEM, the DD related emission is attributed to the structure defects mainly located at the edge of the ribbon. It is found that the DD related emission consists of three bands, centered at 635, 560 and 535 nm, respectively. The temperature dependent PL spectra further demonstrate that the carriers transfer among the different defect states through the thermally activated mechanism. The results provide more direct evidence about the origin of trap state related emissions in ZnSe nanostructures. (C) 2014 Elsevier B.V. All rights reserved.</dcterms:abstract>
+        <bib:pages>118-121</bib:pages>
+        <dc:date>AUG 15 2014</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000338818800033</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0167-577X">
+        <dc:title>Materials Letters</dc:title>
+        <prism:volume>129</prism:volume>
+        <dcterms:alternative>Mater. Lett.</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.matlet.2014.05.015</dc:identifier>
+        <dc:identifier>ISSN 0167-577X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1-s2.0-S0167577X14007861-main.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://books.google.com/books?hl=en&amp;lr=&amp;id=5JagsstpI6EC&amp;oi=fnd&amp;pg=PA239&amp;dq=%22we+will+introduce+quantum+wells+by+discussing+their+basic+physics,+their%22+%22particles+with+effective+masses+different+from+the+free+electron+mass.+The+simplest+k.p%22%22+%22usually+in+layers,+and+with+the+materials+joined+directly+at+the+atomic+level.+When%22+&amp;ots=kRiy0EIG_5&amp;sig=Hi1T-sLawt2ofDF8agEY51B3jDg">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Quantum Dynamics of Simple Systems,” ed. G.-L. Oppo, SM Barnett, E. Riis, and M. Wilkinson (Institute of Physics, London, 1996)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenname>David AB</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Optical physics of quantum wells</dc:title>
+        <bib:pages>239–266</bib:pages>
+        <dc:date>1996</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?hl=en&amp;lr=&amp;id=5JagsstpI6EC&amp;oi=fnd&amp;pg=PA239&amp;dq=%22we+will+introduce+quantum+wells+by+discussing+their+basic+physics,+their%22+%22particles+with+effective+masses+different+from+the+free+electron+mass.+The+simplest+k.p%22%22+%22usually+in+layers,+and+with+the+materials+joined+directly+at+the+atomic+level.+When%22+&amp;ots=kRiy0EIG_5&amp;sig=Hi1T-sLawt2ofDF8agEY51B3jDg</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>181.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.annualreviews.org/doi/abs/10.1146/annurev.physchem.51.1.691">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Annual review of physical chemistry</dc:title>
+                <prism:volume>51</prism:volume>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mukamel</foaf:surname>
+                        <foaf:givenname>Shaul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Multidimensional femtosecond correlation spectroscopies of electronic and vibrational excitations</dc:title>
+        <bib:pages>691–729</bib:pages>
+        <dc:date>2000</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.annualreviews.org/doi/abs/10.1146/annurev.physchem.51.1.691</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 16:37:19</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="http://scitation.aip.org/content/aip/journal/apl/73/5/10.1063/1.121931">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00036951"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yoshita</foaf:surname>
+                        <foaf:givenname>Masahiro</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sasaki</foaf:surname>
+                        <foaf:givenname>Takeaki</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baba</foaf:surname>
+                        <foaf:givenname>Motoyoshi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akiyama</foaf:surname>
+                        <foaf:givenname>Hidefumi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Application of solid immersion lens to high-spatial resolution photoluminescence imaging of GaAs quantum wells at low temperatures</dc:title>
+        <bib:pages>635</bib:pages>
+        <dc:date>1998</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://scitation.aip.org/content/aip/journal/apl/73/5/10.1063/1.121931</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00036951">
+        <dc:title>Applied Physics Letters</dc:title>
+        <prism:volume>73</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:identifier>DOI 10.1063/1.121931</dc:identifier>
+        <dc:identifier>ISSN 00036951</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1.121931.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_42">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Max-Planck-Institut für Wissenschaftsgeschichte : Preprint</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Max-Planck-Institut für Wissenschaftsgeschichte</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Breidenmoser</foaf:surname>
+                        <foaf:givenname>Tobias</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Engler</foaf:surname>
+                        <foaf:givenname>Fynn Ole</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jirikowski</foaf:surname>
+                        <foaf:givenname>Günther</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>Transformation of scientific knowledge in biology : changes in our understanding of the living cell through microscopic imaging</dc:title>
+        <prism:volume>408</prism:volume>
+        <dc:date>2010</dc:date>
+        <z:numPages>89 S. : Ill.</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>P408.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S0378775314009252">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03787753"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jin</foaf:surname>
+                        <foaf:givenname>Xiao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Weifu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenname>Zihan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Yue</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Pinjiang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Xingdao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenname>Yongbiao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zou</foaf:surname>
+                        <foaf:givenname>Shibing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qin</foaf:surname>
+                        <foaf:givenname>Yuancheng</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Qinghua</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <dc:title>Efficient electron/hole transport in inorganic/organic hybrid solar cells by lithium ion and molybdenum trioxide codoping</dc:title>
+        <bib:pages>874–881</bib:pages>
+        <dc:date>December 2014</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S0378775314009252</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-18</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03787753">
+        <dc:title>Journal of Power Sources</dc:title>
+        <prism:volume>268</prism:volume>
+        <dc:identifier>DOI 10.1016/j.jpowsour.2014.06.063</dc:identifier>
+        <dc:identifier>ISSN 03787753</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1-s2.0-S0378775314009252-main.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_57">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1530-6984"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rigutti</foaf:surname>
+                        <foaf:givenname>Lorenzo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blum</foaf:surname>
+                        <foaf:givenname>Ivan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shinde</foaf:surname>
+                        <foaf:givenname>Deodatta</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hernandez-Maldonado</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lefebvre</foaf:surname>
+                        <foaf:givenname>Williams</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Houard</foaf:surname>
+                        <foaf:givenname>Jonathan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vurpillot</foaf:surname>
+                        <foaf:givenname>Francois</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vella</foaf:surname>
+                        <foaf:givenname>Angela</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tchernycheva</foaf:surname>
+                        <foaf:givenname>Maria</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durand</foaf:surname>
+                        <foaf:givenname>Christophe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eymery</foaf:surname>
+                        <foaf:givenname>Joel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deconihout</foaf:surname>
+                        <foaf:givenname>Bernard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Atom probe tomography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>correlative microscopy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>design</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>evaporation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>growth</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>iii-nitride heterostructures</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanoparticle</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanowires</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>optical-properties</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>photoluminescence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>quantum-dot superlattices</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>single   nano-object</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>strained wurtzite semiconductors</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>transmission electron   microscopy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Correlation of Microphotoluminescence Spectroscopy, Scanning Transmission Electron Microscopy, and Atom Probe Tomography on a Single Nano-object Containing an InGaN/GaN Multiquantum Well System</dc:title>
+        <dcterms:abstract>A single nanoscale object containing a set of InGaN/GaN nonpolar multiple-quantum wells has been analyzed by microphotoluminescence spectroscopy (mu PL), high-resolution scanning transmission electron microscopy (HR-STEM) and atom probe tomography (APT). The correlated measurements constitute a rich and coherent set of data supporting the interpretation that the observed mu PL narrow emission lines, polarized perpendicularly to the crystal c-axis and with energies in the interval 2.9-3.3 eV, are related to exciton states localized in potential minima induced by the irregular 3D In distribution within the quantum well (QW) planes. This novel method opens up interesting perspectives, as it will be possible to apply it on a wide class of quantum confining emitters and nano-objects.</dcterms:abstract>
+        <bib:pages>107-114</bib:pages>
+        <dc:date>JAN 2014</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000329586700018</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1530-6984">
+        <dc:title>Nano Letters</dc:title>
+        <prism:volume>14</prism:volume>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Nano Lett.</dcterms:alternative>
+        <dc:identifier>DOI 10.1021/nl4034768</dc:identifier>
+        <dc:identifier>ISSN 1530-6984</dc:identifier>
+    </bib:Journal>
+    <bib:Book rdf:about="http://books.google.com/books?hl=en&amp;lr=&amp;id=_YXoT2Tyq6oC&amp;oi=fnd&amp;pg=PR9&amp;dq=%22reproduction+of+any+part+may+take+place%22+%22bibliographical+references+and%22+%22J.+H.+(John%22+%22of+Congress+Cataloging+in+Publication%22+%22physics+of+low-dimensional+semiconductors+:+an+introduction+/+John+H.%22+&amp;ots=asgLxJQman&amp;sig=pPj2OiAQxQX951mzmDBNObHHvzA">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davies</foaf:surname>
+                        <foaf:givenname>John H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_66"/>
+        <dc:title>The physics of low-dimensional semiconductors: An introduction</dc:title>
+        <dc:date>1998</dc:date>
+        <z:shortTitle>The physics of low-dimensional semiconductors</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?hl=en&amp;lr=&amp;id=_YXoT2Tyq6oC&amp;oi=fnd&amp;pg=PR9&amp;dq=%22reproduction+of+any+part+may+take+place%22+%22bibliographical+references+and%22+%22J.+H.+(John%22+%22of+Congress+Cataloging+in+Publication%22+%22physics+of+low-dimensional+semiconductors+:+an+introduction+/+John+H.%22+&amp;ots=asgLxJQman&amp;sig=pPj2OiAQxQX951mzmDBNObHHvzA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-20</dcterms:dateSubmitted>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_66">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>[John_H._Davies]_The_Physics_of_Low-dimensional_Se(BookFi.org).pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S0038109808007205">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00381098"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Xiaoqin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Tianhao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mukamel</foaf:surname>
+                        <foaf:givenname>Shaul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mirin</foaf:surname>
+                        <foaf:givenname>Richard P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>Steven T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_75"/>
+        <dc:title>Investigation of electronic coupling in semiconductor double quantum wells using coherent optical two-dimensional Fourier transform spectroscopy</dc:title>
+        <bib:pages>361-366</bib:pages>
+        <dc:date>3/2009</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S0038109808007205</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 17:04:12</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00381098">
+        <dc:title>Solid State Communications</dc:title>
+        <prism:volume>149</prism:volume>
+        <prism:number>9-10</prism:number>
+        <dc:identifier>DOI 10.1016/j.ssc.2008.12.021</dc:identifier>
+        <dc:identifier>ISSN 00381098</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_75">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1-s2.0-S0038109808007205-main.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_85">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1947-7988"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grossberg</foaf:surname>
+                        <foaf:givenname>Maarja</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salu</foaf:surname>
+                        <foaf:givenname>Pille</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raudoja</foaf:surname>
+                        <foaf:givenname>Jaan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krustok</foaf:surname>
+                        <foaf:givenname>Jueri</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_86"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>crystals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cu2ZnSnS4</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>kesterites</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>optical-properties</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>photoluminescence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>potential fluctuations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>shape</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>temperature</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>thin-films</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Microphotoluminescence study of Cu2ZnSnS4 polycrystals</dc:title>
+        <dcterms:abstract>Microphotoluminescence studies of Cu2ZnSnS4 polycrystals were performed. At room temperature, two photoluminescence (PL) bands were detected at 1.39 and 1.53 eV and attributed to band-to-tail (BT) and band-to-band (BB) recombination, respectively. At lower temperatures, band-to-impurity recombination always dominates. The results show that the model of heavily doped semiconductors applies to Cu2ZnSnS4 and that, in contrast to the ternary chalcopyrites, the BT recombination in Cu2ZnSnS4 has very low intensity. The laser power dependency of the PL intensity shows that the recombination mechanism of BT and BB bands exhibits an exciton-like behavior. (C) 2013 Society of Photo-Optical Instrumentation Engineers (SPIE)</dcterms:abstract>
+        <bib:pages>030599</bib:pages>
+        <dc:date>JUN 3 2013</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000319797800001</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1947-7988">
+        <dc:title>Journal of Photonics for Energy</dc:title>
+        <prism:volume>3</prism:volume>
+        <dcterms:alternative>J. Photonics Energy</dcterms:alternative>
+        <dc:identifier>DOI 10.1117/1.JPE.3.030599</dc:identifier>
+        <dc:identifier>ISSN 1947-7988</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_86">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>JPE_3_1_030599.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.aps.org/doi/10.1103/PhysRevB.88.075316">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1098-0121,%201550-235X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Glinka</foaf:surname>
+                        <foaf:givenname>Yuri D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Zheng</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erementchouk</foaf:surname>
+                        <foaf:givenname>Mikhail</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leuenberger</foaf:surname>
+                        <foaf:givenname>Michael N.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bristow</foaf:surname>
+                        <foaf:givenname>Alan D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>Steven T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bracker</foaf:surname>
+                        <foaf:givenname>Allan S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Xiaoqin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_88"/>
+        <dc:title>Coherent coupling between exciton resonances governed by the disorder potential</dc:title>
+        <dc:date>8/2013</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.aps.org/doi/10.1103/PhysRevB.88.075316</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 17:29:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1098-0121,%201550-235X">
+        <dc:title>Physical Review B</dc:title>
+        <prism:volume>88</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:identifier>DOI 10.1103/PhysRevB.88.075316</dc:identifier>
+        <dc:identifier>ISSN 1098-0121, 1550-235X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_88">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PhysRevB.88.075316.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.aps.org/doi/10.1103/PhysRevB.63.075305">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0163-1829,%201095-3795"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yoshita</foaf:surname>
+                        <foaf:givenname>Masahiro</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kondo</foaf:surname>
+                        <foaf:givenname>Naoki</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sakaki</foaf:surname>
+                        <foaf:givenname>Hiroyuki</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baba</foaf:surname>
+                        <foaf:givenname>Motoyoshi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akiyama</foaf:surname>
+                        <foaf:givenname>Hidefumi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_92"/>
+        <dc:title>Large terrace formation and modulated electronic states in (110) GaAs quantum wells</dc:title>
+        <dc:date>January 2001</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.aps.org/doi/10.1103/PhysRevB.63.075305</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0163-1829,%201095-3795">
+        <dc:title>Physical Review B</dc:title>
+        <prism:volume>63</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:identifier>DOI 10.1103/PhysRevB.63.075305</dc:identifier>
+        <dc:identifier>ISSN 0163-1829, 1095-3795</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_92">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PhysRevB.63.075305.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_93">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1094-4087"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brossard</foaf:surname>
+                        <foaf:givenname>F. S. F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reid</foaf:surname>
+                        <foaf:givenname>B. P. L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenname>C. C. S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenname>X. L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griffiths</foaf:surname>
+                        <foaf:givenname>J. P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Williams</foaf:surname>
+                        <foaf:givenname>D. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murray</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenname>R. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>arrays</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>cavities</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>crystal</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>defect</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanocavities</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>polaritons</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Confocal microphotoluminescence mapping of coupled and detuned states in photonic molecules</dc:title>
+        <dcterms:abstract>We study the coupling of cavities defined by the local modulation of the waveguide width using confocal photoluminescence microscopy. We are able to spatially map the profile of the antisymmetric (antibonding) and symmetric (bonding) modes of a pair of strongly coupled cavities (photonic molecule) and follow the coupled cavity system from the strong coupling to the weak coupling regime in the presence of structural disorder. The effect of disorder on this photonic molecule is also investigated numerically with a finite-difference time-domain method and a semi-analytical approach, which enables us to quantify the light localization observed in either cavity as a function of detuning. (C) 2013 Optical Society of America</dcterms:abstract>
+        <bib:pages>16934-16945</bib:pages>
+        <dc:date>JUL 15 2013</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000321819400070</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1094-4087">
+        <dc:title>Optics Express</dc:title>
+        <prism:volume>21</prism:volume>
+        <prism:number>14</prism:number>
+        <dcterms:alternative>Opt. Express</dcterms:alternative>
+        <dc:identifier>DOI 10.1364/OE.21.016934</dc:identifier>
+        <dc:identifier>ISSN 1094-4087</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S002202481000240X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00220248"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garces</foaf:surname>
+                        <foaf:givenname>N.Y.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Feigelson</foaf:surname>
+                        <foaf:givenname>B.N.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Freitas</foaf:surname>
+                        <foaf:givenname>J.A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenname>Jihyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Myers-Ward</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Glaser</foaf:surname>
+                        <foaf:givenname>E.R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_97"/>
+        <dc:title>Characterization of bulk GaN crystals grown from solution at near atmospheric pressure</dc:title>
+        <bib:pages>2558-2563</bib:pages>
+        <dc:date>9/2010</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S002202481000240X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-13 17:10:52</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00220248">
+        <dc:title>Journal of Crystal Growth</dc:title>
+        <prism:volume>312</prism:volume>
+        <prism:number>18</prism:number>
+        <dc:identifier>DOI 10.1016/j.jcrysgro.2010.04.012</dc:identifier>
+        <dc:identifier>ISSN 00220248</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_97">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1-s2.0-S002202481000240X-main.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.aps.org/doi/10.1103/PhysRevLett.96.057406">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0031-9007,%201079-7114"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Xiaoqin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Tianhao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Borca</foaf:surname>
+                        <foaf:givenname>Camelia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>Steven</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_99"/>
+        <dc:title>Many-Body Interactions in Semiconductors Probed by Optical Two-Dimensional Fourier Transform Spectroscopy</dc:title>
+        <dc:date>2/2006</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.aps.org/doi/10.1103/PhysRevLett.96.057406</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 16:56:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0031-9007,%201079-7114">
+        <dc:title>Physical Review Letters</dc:title>
+        <prism:volume>96</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:identifier>DOI 10.1103/PhysRevLett.96.057406</dc:identifier>
+        <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_99">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PhysRevLett.96.057406.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://scitation.aip.org/content/aip/journal/rsi/80/7/10.1063/1.3184103">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00346748"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bristow</foaf:surname>
+                        <foaf:givenname>A. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karaiskaj</foaf:surname>
+                        <foaf:givenname>D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dai</foaf:surname>
+                        <foaf:givenname>X.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carlsson</foaf:surname>
+                        <foaf:givenname>C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hagen</foaf:surname>
+                        <foaf:givenname>K. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jimenez</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>S. T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_104"/>
+        <dc:title>A versatile ultrastable platform for optical multidimensional Fourier-transform spectroscopy</dc:title>
+        <bib:pages>073108</bib:pages>
+        <dc:date>2009</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://scitation.aip.org/content/aip/journal/rsi/80/7/10.1063/1.3184103</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-14 19:46:59</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00346748">
+        <dc:title>Review of Scientific Instruments</dc:title>
+        <prism:volume>80</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:identifier>DOI 10.1063/1.3184103</dc:identifier>
+        <dc:identifier>ISSN 00346748</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_104">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1.3184103.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://pubs.acs.org/doi/abs/10.1021/jp109408s">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-6106,%201520-5207"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bristow</foaf:surname>
+                        <foaf:givenname>Alan D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Tianhao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siemens</foaf:surname>
+                        <foaf:givenname>Mark E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>Steven T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mirin</foaf:surname>
+                        <foaf:givenname>R. P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_106"/>
+        <dc:title>Separating Homogeneous and Inhomogeneous Line Widths of Heavy- and Light-Hole Excitons in Weakly Disordered Semiconductor Quantum Wells</dc:title>
+        <bib:pages>5365-5371</bib:pages>
+        <dc:date>2011-05-12</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.acs.org/doi/abs/10.1021/jp109408s</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 16:43:31</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-6106,%201520-5207">
+        <dc:title>The Journal of Physical Chemistry B</dc:title>
+        <prism:volume>115</prism:volume>
+        <prism:number>18</prism:number>
+        <dc:identifier>DOI 10.1021/jp109408s</dc:identifier>
+        <dc:identifier>ISSN 1520-6106, 1520-5207</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_106">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>jp109408s.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_107">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0018-9383"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Konig</foaf:surname>
+                        <foaf:givenname>U.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langmann</foaf:surname>
+                        <foaf:givenname>U.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Temperature Distribution in Gunn Diodes and Gaas Mesfets Determined by Micro-Photoluminescence</dc:title>
+        <bib:pages>49–55</bib:pages>
+        <dc:date>1978</dc:date>
+        <z:language>English</z:language>
+        <dc:description>WOS:A1978EJ61000007</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0018-9383">
+        <dc:title>IEEE Trans. Electron Devices</dc:title>
+        <prism:volume>25</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:identifier>DOI 10.1109/T-ED.1978.19030</dc:identifier>
+        <dc:identifier>ISSN 0018-9383</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_112">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0921-4526"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dai</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenname>C. X.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenname>G. Y.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenname>Y.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shi</foaf:surname>
+                        <foaf:givenname>Z. L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_113"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>emission</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Exciton collision</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Lasing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Micro-photoluminescence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Microstructure</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanowire arrays</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Optical resonance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>photoluminescence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>room-temperature</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ZnO</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Ultraviolet microphotoluminescence resonance and lasing action in a single ZnO micro-tetrapod</dc:title>
+        <dcterms:abstract>ZnO micro-Letrapod microstructures were fabricated by a vapor phase transport method. Under the excitation of 325 nm continuous wave He-Cd laser, the microphotoluminescence spectrum from a single ZnO micro-tetrapod presented a two-band structure with a series of optical resonance modes; a possible optical resonance loop formed in two adjacent legs of the tetrapod was suggested, and the two-band spectrum structure was attributed to the exciton-exciton scattering process. The lasing emission was obtained from single ZnO micro-tetrapod under intense excitation of 355 nm nanosecond pulsed land The lasing spectrum shows clear mode structure with the lasing quality factor of 1300 and the lasing threshold of 150 kW/cm(2). The microphotoluminescence resonance and lasing results indicate that ZnO tetrapod can serve as a high-Q ultraviolet microcavity laser. (C) 2014 Elsevier B.V. All rights reserved.</dcterms:abstract>
+        <bib:pages>70-73</bib:pages>
+        <dc:date>JUN 1 2014</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000334335800014</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0921-4526">
+        <dc:title>Physica B-Condensed Matter</dc:title>
+        <prism:volume>442</prism:volume>
+        <dcterms:alternative>Physica B</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.physb.2014.02.038</dc:identifier>
+        <dc:identifier>ISSN 0921-4526</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_113">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>1-s2.0-S0921452614001252-main.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://stacks.iop.org/1742-6596/210/i=1/a=012017?key=crossref.f6abf9fb07904789aeef59d09d2c339c">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1742-6596"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burau</foaf:surname>
+                        <foaf:givenname>G K G</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manzke</foaf:surname>
+                        <foaf:givenname>G</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kieseling</foaf:surname>
+                        <foaf:givenname>F</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stolz</foaf:surname>
+                        <foaf:givenname>H</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reuter</foaf:surname>
+                        <foaf:givenname>D</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wieck</foaf:surname>
+                        <foaf:givenname>A</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_116"/>
+        <dc:title>Nonlinear behaviour of the resonance fluorescence from excitons in quantum wells</dc:title>
+        <bib:pages>012017</bib:pages>
+        <dc:date>February 2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://stacks.iop.org/1742-6596/210/i=1/a=012017?key=crossref.f6abf9fb07904789aeef59d09d2c339c</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1742-6596">
+        <dc:title>Journal of Physics: Conference Series</dc:title>
+        <prism:volume>210</prism:volume>
+        <dc:identifier>DOI 10.1088/1742-6596/210/1/012017</dc:identifier>
+        <dc:identifier>ISSN 1742-6596</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_116">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>gkg.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:052143047X">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Cambridge ; New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lipson</foaf:surname>
+                        <foaf:givenname>S. G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lipson</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tannhauser</foaf:surname>
+                        <foaf:givenname>D. S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Physical optics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Optical physics</dc:title>
+        <prism:edition>3rd ed</prism:edition>
+        <dc:date>1995</dc:date>
+        <z:numPages>497</z:numPages>
+        <dc:identifier>ISBN 052143047X</dc:identifier>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>QC395.2 .L56 1995</rdf:value></dcterms:LCC>
+        </dc:subject>
+    </bib:Book>
+    <bib:Article rdf:about="http://www.kps.or.kr/jkps/abstract_view.asp?articleuid=750175DD-86EC-4689-BD35-DE482E272D26">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0374-4884"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sang-Youp</foaf:surname>
+                        <foaf:givenname>Yim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joon</foaf:surname>
+                        <foaf:givenname>Heon Kim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mun</foaf:surname>
+                        <foaf:givenname>Seok Jeong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seung-Han</foaf:surname>
+                        <foaf:givenname>Park</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jongmin</foaf:surname>
+                        <foaf:givenname>Lee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_121"/>
+        <dc:title>Micro-photoluminescence Mapping of Localized Luminescent Centers in Blue and Green InGaN/GaN Multiple Quantum Wells</dc:title>
+        <bib:pages>1660</bib:pages>
+        <dc:date>June 2011</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.kps.or.kr/jkps/abstract_view.asp?articleuid=750175DD-86EC-4689-BD35-DE482E272D26</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0374-4884">
+        <dc:title>Journal of the Korean Physical Society</dc:title>
+        <prism:volume>58</prism:volume>
+        <prism:number>6</prism:number>
+        <dc:identifier>DOI 10.3938/jkps.58.1660</dc:identifier>
+        <dc:identifier>ISSN 0374-4884</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_121">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>article (3).pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.scientificamerican.com/article/the-sun-and-the-interstellar-medium/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Scientific American</dc:title>
+                <prism:volume>255</prism:volume>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paresce, Francesco and Bowyer, Stuart</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_123"/>
+        <dc:title>The Sun and the Interstellar Medium</dc:title>
+        <dcterms:abstract>A cloud of interstellar gas is now streaming through the solar system. Past encounters with denser clouds may have substantially aikcted the earth's climate</dcterms:abstract>
+        <dc:date>1986</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.scientificamerican.com/article/the-sun-and-the-interstellar-medium/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-09-19</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_123">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <link:type>text/html</link:type>
+        <link:charset>utf-8</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.opticsinfobase.org/abstract.cfm?uri=josab-29-2-A69">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>JOSA B</dc:title>
+                <prism:volume>29</prism:volume>
+                <prism:number>2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundiff</foaf:surname>
+                        <foaf:givenname>Steven T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_127"/>
+        <dc:title>Optical two-dimensional Fourier transform spectroscopy of semiconductor nanostructures [Invited]</dc:title>
+        <bib:pages>A69–A81</bib:pages>
+        <dc:date>2012</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.opticsinfobase.org/abstract.cfm?uri=josab-29-2-A69</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-15 16:39:27</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_127">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>josab-29-2-A69.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_130">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1098-0121"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kudrawiec</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Latkowska</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baranowski</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Misiewicz</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>L. H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harmand</foaf:surname>
+                        <foaf:givenname>J. C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_131"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>alloys</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>carrier localization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>conduction-band</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>electron effective-mass</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>excitons</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>gaasn</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>gainnas</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>molecular-beam epitaxy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>quantum-wells</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>temperature-dependence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Photoreflectance, photoluminescence, and microphotoluminescence study of optical transitions between delocalized and localized states in GaN0.02As0.98, Ga0.95In0.05N0.02As0.98, and GaN0.02As0.90Sb0.08 layers</dc:title>
+        <dcterms:abstract>Optical transitions in as-grown and annealed GaN0.02As0.98, Ga0.95In0.05N0.02As0.98, and GaN0.02As0.90Sb0.08 bulklike layers have been studied with photoreflectance (PR), photoluminescence (PL), and microphotoluminescence (mu PL) in a broad range of temperatures. The exciton binding energy and the temperature dependence of the energy gap have been determined from PR measurements. In addition, the alloy-related broadening of optical transitions has been analyzed and compared for the three alloys. The largest alloy inhomogeneities have been observed for GaN0.02As0.90Sb0.08. In mu PL spectra of GaN0.02As0.98 and Ga0.95In0.05N0.02As0.98 layers measured at low temperatures and low excitation conditions, sharp PL lines of 100-300-mu eV widths have been clearly observed similar to 10-20 meV below the energy gap of these alloys. Analyzing the temperature quenching of the sharp PL lines, they have been attributed to the recombination of localized excitons trapped at deep donor (acceptor)-like states. Such lines were not well resolved for GaN0.02As0.90Sb0.08 layers. The analysis of thermal quenching of localized exciton emission suggests that for this alloy excitons are localized mostly on alloy content fluctuations. With the increase in the excitation power an additional PL band has been observed in mu PL spectra at the higher-energy side. This band corresponds to the optical transitions between delocalized states which are observed in photoreflectance spectra. The emission of localized excitons without resolved sharp lines has been also observed with macro-PL measurements at low temperatures. In addition, the donor trap-valence band (DT-VB) recombination has been identified for the three alloys in macro-PL spectra. It has been clearly observed that the intensity of DT-VB recombination is the weakest for GaN0.02As0.90Sb0.08 alloys whereas for GaN0.02As0.98 and Ga0.95In0.05N0.02As0.98 alloys it is very similar. The observed differences between the three alloys and the role of postgrowth annealing have been analyzed and discussed in the context of the influence of III-V host on alloy inhomogeneities, formation of native point defects in III-V-N alloys, and their influence on the optical quality of III-V-N alloys.</dcterms:abstract>
+        <bib:pages>125201</bib:pages>
+        <dc:date>SEP 3 2013</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ISI Web of Knowledge</z:libraryCatalog>
+        <dc:description>WOS:000323891700005</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1098-0121">
+        <dc:title>Physical Review B</dc:title>
+        <prism:volume>88</prism:volume>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>Phys. Rev. B</dcterms:alternative>
+        <dc:identifier>DOI 10.1103/PhysRevB.88.125201</dc:identifier>
+        <dc:identifier>ISSN 1098-0121</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_131">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PhysRevB.88.125201.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_5">
+        <dc:title>Literature Review</dc:title>
+        <dcterms:hasPart rdf:resource="#item_34"/>
+        <dcterms:hasPart rdf:resource="#item_42"/>
+        <dcterms:hasPart rdf:resource="#item_57"/>
+        <dcterms:hasPart rdf:resource="#item_85"/>
+        <dcterms:hasPart rdf:resource="#item_93"/>
+        <dcterms:hasPart rdf:resource="http://linkinghub.elsevier.com/retrieve/pii/S002202481000240X"/>
+        <dcterms:hasPart rdf:resource="#item_112"/>
+        <dcterms:hasPart rdf:resource="#item_130"/>
+    </z:Collection>
+</rdf:RDF>
