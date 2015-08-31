@@ -1025,9 +1025,8 @@
 	\vfill
 	\begin{center}
 		A thesis submitted to the\\
-		Faculty of the Graduate School of the\\
-		University of Colorado in partial fulfillment\\
-		of the requirements for the degree of\\
+		Faculty of the University of Colorado in partial fulfillment\\
+		of the requirements for Honors' designation for the degree of\\
 		\th@fulldegree\\
 		\th@deptorg\ \th@deptname\\
 		\ \th@degreeyear \\
