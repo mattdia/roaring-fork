@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 SEP 2015 22:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 SEP 2015 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -31,8 +31,8 @@ Document Class: thesis 2014/03/24
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -1296,18 +1296,18 @@ Putting page number on short LoF
 (./thesis-master.aux)
 \openout1 = `thesis-master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1372,13 +1372,13 @@ e
 ))
 Making Title Page
 
-./thesis-master.tex:24: LaTeX Error: There's no line here to end.
+./thesis-master.tex:25: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \begin{document}
+l.25 \begin{document}
                      
 ? 
 Making Approval Page
@@ -1409,22 +1409,7 @@ Making Short ToC...
 ]
 centered
 Short Chapter (page numbered)
-(./thesis-master.toc
-LaTeX Font Info:    Try loading font information for U+lasy on input line 4.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-))
+(./thesis-master.toc)
 \tf@toc=\write3
 \openout3 = `thesis-master.toc'.
 
@@ -1456,80 +1441,114 @@ centered
 [1
 
 
-]) (./chapter2.tex [2] [3]
+] [2]) (./chapter2v2.tex [3]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
 [4
 
 ]
+LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Warning: Reference `Example band structure of a direct-gap semiconductor.
+' on page 5 undefined on input line 19.
+
 Package epstopdf Info: Source file: <dispcurve.eps>
-(epstopdf)                    date: 2015-09-07 16:11:38
+(epstopdf)                    date: 2015-09-12 11:35:50
 (epstopdf)                    size: 505854 bytes
 (epstopdf)             Output file: <dispcurve-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-07 16:12:32
+(epstopdf)                    date: 2015-09-12 11:35:50
 (epstopdf)                    size: 23108 bytes
 (epstopdf)             Command: <repstopdf --outfile=dispcurve-eps-converted-to
 .pdf dispcurve.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
- <dispcurve-eps-converted-to.pdf, id=44, 413.545pt x 221.82875pt>
+<dispcurve-eps-converted-to.pdf, id=39, 413.545pt x 221.82875pt>
 File: dispcurve-eps-converted-to.pdf Graphic file (type pdf)
 
 <use dispcurve-eps-converted-to.pdf>
-Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 42.
-(pdftex.def)             Requested size: 375.80542pt x 201.59029pt.
+Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 23.
+(pdftex.def)             Requested size: 328.82706pt x 176.39023pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5] [6 <./dispcurve-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Well.eps>
-(epstopdf)                    date: 2015-09-07 13:35:31
-(epstopdf)                    size: 1563274 bytes
-(epstopdf)             Output file: <Well-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-07 13:38:17
-(epstopdf)                    size: 92392 bytes
-(epstopdf)             Command: <repstopdf --outfile=Well-eps-converted-to.pdf 
-Well.eps>
-(epstopdf)             \includegraphics on input line 71.
+
+LaTeX Warning: Reference `infp' on page 7 undefined on input line 42.
+
+Package epstopdf Info: Source file: <infpotential.eps>
+(epstopdf)                    date: 2015-09-26 19:49:58
+(epstopdf)                    size: 1000322 bytes
+(epstopdf)             Output file: <infpotential-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-26 19:50:04
+(epstopdf)                    size: 10474 bytes
+(epstopdf)             Command: <repstopdf --outfile=infpotential-eps-converted
+-to.pdf infpotential.eps>
+(epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
+<infpotential-eps-converted-to.pdf, id=58, 164.615pt x 114.4275pt>
+File: infpotential-eps-converted-to.pdf Graphic file (type pdf)
 
-<Well-eps-converted-to.pdf, id=64, 148.555pt x 96.36pt>
-File: Well-eps-converted-to.pdf Graphic file (type pdf)
+<use infpotential-eps-converted-to.pdf>
+Package pdftex.def Info: infpotential-eps-converted-to.pdf used on input line 4
+6.
+(pdftex.def)             Requested size: 281.85585pt x 195.94891pt.
+ [7 <./infpotential-eps-converted-to.pdf>]
 
-<use Well-eps-converted-to.pdf>
-Package pdftex.def Info: Well-eps-converted-to.pdf used on input line 71.
-(pdftex.def)             Requested size: 234.87749pt x 152.3603pt.
-) [7 <./Well-eps-converted-to.pdf>] [8]
-(./thesis-master.aux)
+LaTeX Warning: Reference `hamil' on page 8 undefined on input line 72.
+
+
+LaTeX Warning: Reference `tise' on page 8 undefined on input line 72.
+
+
+LaTeX Warning: Reference `tise' on page 8 undefined on input line 78.
+
+
+LaTeX Warning: Reference `tise' on page 8 undefined on input line 82.
+
+) [8] [9] (./thesis-master.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8040 strings out of 493488
- 129762 string characters out of 3141326
- 182564 words of memory out of 3000000
- 11199 multiletter control sequences out of 15000+200000
- 12035 words of font info for 46 fonts, out of 3000000 for 9000
+ 8042 strings out of 493488
+ 129775 string characters out of 3141326
+ 181527 words of memory out of 3000000
+ 11201 multiletter control sequences out of 15000+200000
+ 11426 words of font info for 44 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,7n,40p,1546b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis-master.pdf (15 pages, 231628 bytes).
+ 39i,7n,40p,1546b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis-master.pdf (16 pages, 132988 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

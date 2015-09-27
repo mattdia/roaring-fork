@@ -1,12 +1,13 @@
 \chapter{Theory and Background}
-
+In this chapter, I will provide the theoretical background necessary to understand the work presented in this thesis. The first section will deal with the definition and importance of the bandgap of a material, the second will introduce the effects of confinement on electrons within semiconductors, leading to a useful physical model, the semiconductor quantum well. The third will introduce the concept of semiconductor quantum well disorder, and the fourth will motivate the study of semiconductor quantum well disorder with micro photoluminescence spectroscopy.
 \section{The Semiconductor Quantum Well}
 \subsection{The Bandgap}
 \indent In order to understand the state of electrons in a crystalline solid, one must first understand the problem of how electrons act under the effect of a periodic charge density. The Bloch theorem is a useful tool for understanding this problem quantum-mechanically, and a complete treatment can be found in CITE Iadonisi. Here, I will sketch the important physical concepts and their implications for my thesis. Consider an infinite, arbitrary crystalline atomic lattice, unbounded in each spatial direction. The crystalline structure, therefore, is homogeneous, uniform, and evidently invariant under translation along any of the crystalline axes. Thus, for each valance electron around an arbitrary lattice atom, the following is true:
 
 \begin{equation}
-H(\vec{r}) = H(\vec{r} + \vec{D_n})
+\vec{k}\cdot \vec{R_n}
 \end{equation}
+ 
 
 where $\vec{r}$ is an arbitrary lattice position and $\vec{D_n}$ is an arbitrary displacement from position $\vec{r}$ and $H(\vec{r})$ is the quantum-mechanical Hamiltonian for a lattice electron. We can thus define a lattice transition operator, $T_n$, which takes the electron wavefucntion at one lattice site and spits out an electron wave function for a chosen $D_n$.
 
@@ -48,29 +49,7 @@ where $\ket{\psi(\vec{r})} = e^{i\vec{k} \cdot \vec{D_n}}\ket{u_k(\vec{r})}$ is 
 
 \subsection{Confinement and The Exciton}
 
-\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE someone. I'll illustrate the important physical effects of confinement, and in the next section, I will introduce the semiconductor quantum well. Initially, I will sketch the derivation of the finite potential well that confined particles feel. This derivation will be sufficient to explore the physical effects of confinement, but the subtleties of the semiconductor electron potential will be addressed in the next section. The most illustrative theoretical model of a semiconductor quantum well is the canonical particle in a finite well, and the goal here is to derive the energy of the first quantized energy state in the limit that the well is fairly deep. For a more complete treatment of the finite potential well, see CITE Griffiths.
-
-
- \[ V(x) = \begin{cases} 
-      0 & x < -L \\
-      -V_0 & -L\leq x\leq  L \\
-      0 & L <  x 
-   \end{cases}
-\]
-
-The most illustrative approach is to solve the Shr\"{o}dinger Equation for the stationary states, and find the first excited state energy for the finite well in the limit of a tall well. Within the well, the Time Independent Schr\"{o}dinger equation reads:
-
-\begin{equation}
--i\hbar \frac{d}{dt} \ket{\psi} = E \ket{\psi}
-\end{equation}
-
-\subsection{Physical Model of a Semiconductor Quantum Well}
-A semiconductor quantum well is a grown structure with two barrier layers `sandwiching' the quantum well layer CITE Miller. The barrier layers are manufactured from a higher band-gap material than the 
-\begin{figure}[h!]
-\centering
-\includegraphics[width = .5\textwidth]{Well.eps}
-\caption{sports}
-\end{figure}
+\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE someone. I'll illustrate the important physical effects of confinement in this section, and introduce the semiconductor quantum well. 
 
 \section{Quantum Well Disorder}
 
