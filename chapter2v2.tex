@@ -22,14 +22,17 @@ where $\vec{r}$ is the lattice coordinate and $u_k(\vec{r})$ is a periodic funct
 \centering
 \includegraphics[width = .7\textwidth]{dispcurve.eps}
 \caption{A typical dispersion curve minima for a direct-gap semiconductor. An optical transition is illustrated at $\vec{k} = 0$, where an electron is emitting a photon as the result of a transition from the conduction band to the valance band.}
-\label{Example band structure of a direct-gap semiconductor.}
+\label{ExampleBands}
 \end{figure}
 
 %dispersion curves
 \indent The full functional shape of dispersion curves is dependent on the physical properties of solids. Thus, solids can be broadly construed into three categories: metals, insulators, and semiconductors. In metals, the conduction band energies are below the Fermi level and thus some electrons are free to move about and conduct charge. In insulators, the bandgap is relatively large, and therefore electrons are confined to their host atoms. By contrast in semiconductors, the bandgap is fairly small and therefore only a small amount of energy is required to promote an electron to the conduction band from the valance band. Importantly, semiconductor electrons can be photo-excited into the conduction band CITE Iandonesi. This fact forms the basis of experimental studies of semiconductor nanostructures (CITE Steve review), photonic devices, and certain types of theoretical quantum information processing schemes (CITE Nature Review of QI).
 
+%Discussion of bands in GaAs and AlGaAs, p orbital smearing etc. Find p 63 in davies.
+(Discussion of band structure in GaAs arising from p-orbital smearing, figure highlighting the direct-gap nature of GaAs).
+
 \subsection{Confinement and The Exciton}
-%exciton intro
+%confinement intro
 \indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE Griff. In the previous section, I briefly introduced the bandgap, and its important physical properties. In this section, I'll illustrate an interesting application of band theory: the semiconductor quantum well. First, it is important to understand what we mean by confinement, and how quantized energy levels arise for confined particles. I will then construct a physical picture of the semiconductor quantum well (QW), and then I will discuss the formation of excitons and a simple physical model of their behavior, sufficient for understanding the spectroscopy conducted in this thesis.
 
 \indent Perhaps the simplest problem in quantum mechanics is the of confinement of a particle in a finite, one dimensional potential well. I will sketch a derivation of the wave function of a particle trapped in such a well, and use this derivation as the basis for exploring the physics of the QW exciton. We will begin by considering an arbitrary particle confined in a one dimensional infinite potential well. The potential that our arbitrary particle feels is:
@@ -98,19 +101,39 @@ Now, if we let $k_n = \alpha$ and solve for E, we obtain
 \begin{equation}
 E = \frac{n^2 \pi^2 \hbar^2}{2 m L^2}.
 \end{equation}
-It will do us no good to normailze the wavefunctions we found, as I am not interested in the exact behavior of each state for our particle. The important part to note is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels. 
+It will do us no good to normailze the wavefunctions we found, as I am not interested in the exact behavior of each state for our particle. The important part is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels. 
 
-\indent Using layers of semiconductors, one can generate similar confinement of electrons in one dimension.
+\indent Using layers of semiconductors, one can generate similar confinement of electrons in one dimension. A simple way of confining particles is to sandwich a low-bandgap semiconductor in between two layers of higher bandgap materials (CITE Davies). One period of this structure is shown in figure \ref{}. If the well material is a direct-gap semiconductor, then simple vertical optical transitions across the bandgap can be made, as the transition illustrated in \ref{Example band structure of a direct-gap semiconductor.}. Figure \ref{GaAsBstruct} is the band structure for GaAs, the chosen well material for the studies of growth disorder. Annotated on the figure is the direct-gap transition zone of interest. The potential well created by the semiconductor sandwich leads to quantization of electron states within the well layer CITE Miller, Davies, Steve Review. We can access these transitions optically, making the QW a great testbed for exploring electron dynamics within a simple and well-known potential CITE Steve Review. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = .5\textwidth]{GaAsBstruct.eps}
+\caption{The band structure of GaAs, the allowed states are the thick horizontal curves, and the boxed region is the direct-gap region, in which electrons can be photo-excited across the gap. Note, the minima of this region look like the dispersion curve in \ref{GaAsBstruct}.}
+\label{GaAsBstruct}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = .5\textwidth]{Well.eps}
+\caption{An example of the semiconductor quantum well. These layers can be repeated arbitrarily many times with arbitrary dimension and thickness for many types of application.}
+\label{GaAsBstruct}
+\end{figure}
+
+
+
+
+\indent The simple picture presented above doesn't quite adequately represent the physics of an electron within a quantum well, however. After an excited electron moves from the valence band to the conduction band, it will leave behind a vacancy, or `hole', around its parent atom CITE Miller, Davies. The electron feels a \textit{screened Coulomb potential} from this vacancy, as the vacancy is positively charged. I'll briefly sketch why this potential arises and then introduce the key concept of this section: the excition. Imagine a large number of electrons have been excited to their first excited state within the quantum well. Now, spatially, one will have a quasi-neutral distribution of electrons and holes in the well layer. Imagine inserting into this situation a positive charge. Adjacent electrons will immediately surround the positive charge, modifying the total Coulomb potential due to that charge, \textit{screening} its effects from charges far away. This phenomenon, known as Debye shielding CITE Chen, modifies the potential electrons feel from adjacent holes. If the potential electrons feel was exactly Coulombic in nature, then any bound state between an electron and a hole would be Hydrogenic CITE Griffiths. This potential, however, is \textit{not} exactly Culombic in nature, so the bound states between the electrons and holes don't exhibit exactly Hydrogenic behavior. The subtleties of the functional form of the wave function are treated in CITE Rogers, but a sketch of their form is in figure \ref{}. The photoexcited electron and an hole can form a bound pair, known as an exciton. The energy levels of this quasiparticle are discretized by its confinement in the quantum well. Additionally, coherent coupling of exciton states can be explored using multidimensional coherent spectroscopy CITE Steve Review, Bristow's PRL. 
 
 
 \section{Quantum Well Disorder}
 
-\section{Asymmetric Double Quantum Wells}
+
 
 
 
 
 \section{Microphotoluminescence Spectroscopy}
 
-
+\section{Asymmetric Double Quantum Wells}
 \section{Photoluminescence Excitation Spectroscopy}
