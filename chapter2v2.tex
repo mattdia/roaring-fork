@@ -1,41 +1,42 @@
 \chapter{Theory and Background}
-In this chapter, I will provide the theoretical background necessary to understand the work presented in this thesis. The first section will deal with the definition and importance of the bandgap of a material, the second will introduce the effects of confinement on electrons within semiconductors, leading to a useful physical model, the semiconductor quantum well. The third will introduce the concept of semiconductor quantum well disorder, and the fourth will motivate the study of semiconductor quantum well disorder with micro photoluminescence spectroscopy.
+In this chapter, I will provide the theoretical background necessary to understand the work presented in this thesis. The first section will deal with the definition and importance of the bandgap of a material, the second will introduce the effects of confinement on electrons within semiconductors, leading to a discussion of experimental confinement within the semiconductor quantum well. The third section will introduce the concept of semiconductor quantum well disorder, and the fourth will motivate the study of semiconductor quantum well disorder with micro photoluminescence spectroscopy. Finally, I will discuss the optical properties of asymetric double quantum wells and how to use photoluminescence excitation spectroscopy to investigate incoherent coupling between excitons in the asymmetric double quantum wells.
 
 \section{The Semiconductor Quantum Well}
-INTRO
+This section will broadly lay out band theory of electron states in solids. I will then discuss interband absorption by electrons in direct-gap semiconductors. 
 \subsection{Bandgap}
 
-%bandgap def, little discussion
-\indent In order to understand the state of electrons in a crystalline solid, one must first understand how electrons act under the effect of a periodic potential. When we bring electron orbitals together in a molecule, the wave functions perturb each other. In the case of semiconductors, the Bloch theorem is a useful tool for understanding this problem quantum-mechanically, and a complete treatment can be found in CITE (Iadonisi and Siradesh). Fundamentally, if one assumes that valance electrons exist in an infinite, periodic, homogeneous lattice, then electron wave functions are invariant under translation from one lattice point to the next. The Bloch theorem state that under translation from lattice cite to lattice cite, the electron wavefunction will pick up a phase:
+%bandgap def, a little discussion
+\indent In order to understand how electrons behave in a crystalline solid, one must first understand how electrons act under the effect of a periodic potential, such as they would experience in a crystalline lattice. When we bring electron orbitals together in a molecule, the wave functions perturb each other. In the case of semiconductors, the Bloch theorem is a useful tool for understanding this problem quantum-mechanically, and a complete treatment can be found in CITE (Iadonisi and Siradesh). Fundamentally, if one assumes that valance electrons exist in an infinite, periodic, homogeneous lattice, then electron wave functions are invariant under translation from one lattice point to the next. The Bloch theorem states that under translation from lattice cite to lattice cite, the electron wavefunction will pick up a phase:
 
 \begin{equation}
-\vec{k}\cdot \vec{R_n}
+\phi = \vec{k}\cdot \vec{R_n}
 \end{equation}
  
 where $\vec{k}$ is the displacement wavevector and  $\vec{R_n}$ is the lattice vector for the $n$th lattice cite to which the wavefunction is translated CITE Iandonesi. Thus, the electron wavefunction becomes 
+
  \begin{equation}
  \psi(\vec{r}) = e^{i \vec{k\cdot r}} u_k(\vec{r})
  \end{equation}
-where $\vec{r}$ is the lattice coordinate and $u_k(\vec{r})$ is a periodic function for each primitive cell in the crystal. In the limit that many primitive cells are brought together in a crystal, two things happen: each n-fold degenerate electronic energy level will split into n components, and these levels will become so close that they will smear into allowed and disallowed energy bands CITE Indonesi, Siradesh, Grif, Davies. If electrons have a high enough energy, they can occupy the `conduction band' states where they are free to move about the lattice structure. They are otherwise confined to their host atoms and occupy the `valance band' states. The energy difference between the valance band and conduction band is called the bandgap, and is illustrated in the example dispersion curve, \ref{Example band structure of a direct-gap semiconductor.}. 
+ 
+where $\vec{r}$ is the lattice coordinate and $u_k(\vec{r})$ is a periodic function for each primitive cell in the crystal. In the limit that many primitive cells are brought together in a crystal, two things happen: each n-fold degenerate electron energy level will split into n components, and these levels will become so close that they will smear into allowed and disallowed energy densities of state CITE Indonesi, Siradesh, Grif, Davies. If electrons have a high enough energy, they can occupy the ``conduction band'' states, or the lowest energy vacant states. Otherwise, electrons occupy the ``valence band'' states within the crystal. The energy difference between the valance band and conduction band is called the bandgap, and is illustrated in the example dispersion curve, figure 2.1. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width = .7\textwidth]{dispcurve.eps}
-\caption{A typical dispersion curve minima for a direct-gap semiconductor. An optical transition is illustrated at $\vec{k} = 0$, where an electron is emitting a photon as the result of a transition from the conduction band to the valance band.}
+\caption{ \doublespacing A typical dispersion curve minima for a direct-gap semiconductor. An optical transition is illustrated at $k = 0$, where an electron is absorbing a photon resulting in a transition from the conduction band to the valance band.}
 \label{ExampleBands}
 \end{figure}
 
 %dispersion curves
-\indent The full functional shape of dispersion curves is dependent on the physical properties of solids. Thus, solids can be broadly construed into three categories: metals, insulators, and semiconductors. In metals, the conduction band energies are below the Fermi level and thus some electrons are free to move about and conduct charge. In insulators, the bandgap is relatively large, and therefore electrons are confined to their host atoms. By contrast in semiconductors, the bandgap is fairly small and therefore only a small amount of energy is required to promote an electron to the conduction band from the valance band. Importantly, semiconductor electrons can be photo-excited into the conduction band CITE Iandonesi. This fact forms the basis of experimental studies of semiconductor nanostructures (CITE Steve review), photonic devices, and certain types of theoretical quantum information processing schemes (CITE Nature Review of QI).
+\indent Dispersion curves map out allowed band energies in k-space, and their full functional shape is dependent on the types and arrangement of constituent atoms.  Solids can be broadly organized into three categories based upon the k-space arrangement of their electron bands. In metals, the conduction band energies are below the highest energy valence band states and thus some conduction band states are occupied. In insulators, the bandgap is relatively large (about 10eV) CITE Mark Fox. By contrast in semiconductors, the bandgap is roughly 1eV and can therefore be optically accessed. Importantly, semiconductor electrons can absorb a photon with enough energy to transition from the valance band to the conduction band, a phenomena known as ``interband absorbtion'' CITE Iandonesi, Galan thesis. This fact forms the basis of linear and nonlinear optical studies of semiconductor nanostructures (CITE Steve review), photonic devices, and certain types of theoretical quantum information processing schemes (CITE Nature Review of QI).
 
-%Discussion of bands in GaAs and AlGaAs, p orbital smearing etc. Find p 63 in davies.
-(Discussion of band structure in GaAs arising from p-orbital smearing, figure highlighting the direct-gap nature of GaAs).
+%Discussion of bands in GaAs and AlGaAs, p orbital smearing etc. Find p 63 in davies. (maybe here maybe later)
 
-\subsection{Confinement and The Exciton}
+\subsection{Confinement}
 %confinement intro
-\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE Griff. In the previous section, I briefly introduced the bandgap, and its important physical properties. In this section, I'll illustrate an interesting application of band theory: the semiconductor quantum well. First, it is important to understand what we mean by confinement, and how quantized energy levels arise for confined particles. I will then construct a physical picture of the semiconductor quantum well (QW), and then I will discuss the formation of excitons and a simple physical model of their behavior, sufficient for understanding the spectroscopy conducted in this thesis.
+\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE Griffiths. In the previous section, I briefly introduced the bandgap, and its important physical properties. In this section, I'll illustrate an interesting application of band theory: the semiconductor quantum well (QW). First, it is important to understand what we mean by confinement, and how quantized energy levels arise for confined particles. I will then construct a physical picture for QWs, and then I will discuss the formation of excitons and a simple physical model of their behavior, sufficient for understanding the spectroscopy conducted in this thesis.
 
-\indent Perhaps the simplest problem in quantum mechanics is the of confinement of a particle in a finite, one dimensional potential well. I will sketch a derivation of the wave function of a particle trapped in such a well, and use this derivation as the basis for exploring the physics of the QW exciton. We will begin by considering an arbitrary particle confined in a one dimensional infinite potential well. The potential that our arbitrary particle feels is:
+\indent Perhaps the simplest problem in quantum mechanics is the of confinement of a particle in an infinite, one dimensional potential well. I will sketch a derivation of the wave function of a particle trapped in such a well, and use this derivation as the basis for exploring the physics of the QW exciton. We will begin by considering an arbitrary particle confined in a one dimensional infinite potential well. The potential that our arbitrary particle feels is:
 
 \[ V(x) = \begin{cases} 
       0 & 0 < x < L \\
@@ -45,17 +46,18 @@ where $\vec{r}$ is the lattice coordinate and $u_k(\vec{r})$ is a periodic funct
 where $L$ is the length of the potential well. Graphically, the potential the particle feels looks like \ref{infp}.
 
 \begin{figure}[h!]
+\label{infp}
 \centering
 \includegraphics[width = .6\textwidth]{infpotential.eps}
-\caption{A graphical representation of the one-dimensional infinite potential well of width $L$.}
-\label{infp}
+\caption{\doublespacing A graphical representation of the one-dimensional infinite potential well of width $L$.}
 \end{figure}
+
 Our task is to solve the time independent Schr\"{o}dinger equation to show how quantized bound states arise for one-dimensional confinement. The time independent Schr\"{o}dinger equation reads:
 
 \begin{equation}
-\hat{H} \psi = E\psi
+\hat{H} \psi(x) = E\psi(x)
 \end{equation}
-where E is the energy of the particle, and $\ket{psi}$ is the particle's wavefunction. The particle will evidently be confined to the well, so our Hamiltonian inside the well is just
+where E is the energy of the particle, and $\psi(x)$ is the particle's wavefunction. The particle will evidently be confined to the well, so our Hamiltonian inside the well is just
 
 \begin{equation}
 \hat{H} = - \frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2}
@@ -64,7 +66,7 @@ where E is the energy of the particle, and $\ket{psi}$ is the particle's wavefun
 where $m$ is the particle's mass, and $E$ is the particle's  total energy. The time independent Schr\"{o}dinger equation now reads:
 
 \begin{equation} \label{tise}
-\frac{\partial^2}{\partial x^2} \psi = - \alpha \psi
+\frac{\partial^2}{\partial x^2} \psi(x) = - \alpha \psi(x)
 \end{equation}
 
 where we define 
@@ -101,39 +103,139 @@ Now, if we let $k_n = \alpha$ and solve for E, we obtain
 \begin{equation}
 E = \frac{n^2 \pi^2 \hbar^2}{2 m L^2}.
 \end{equation}
-It will do us no good to normailze the wavefunctions we found, as I am not interested in the exact behavior of each state for our particle. The important part is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels. 
+It will do us no good to normalize the wavefunctions we found, as their use for our purposes is minimal. The important part is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels. 
 
-\indent Using layers of semiconductors, one can generate similar confinement of electrons in one dimension. A simple way of confining particles is to sandwich a low-bandgap semiconductor in between two layers of higher bandgap materials (CITE Davies). One period of this structure is shown in figure \ref{}. If the well material is a direct-gap semiconductor, then simple vertical optical transitions across the bandgap can be made, as the transition illustrated in \ref{Example band structure of a direct-gap semiconductor.}. Figure \ref{GaAsBstruct} is the band structure for GaAs, the chosen well material for the studies of growth disorder. Annotated on the figure is the direct-gap transition zone of interest. The potential well created by the semiconductor sandwich leads to quantization of electron states within the well layer CITE Miller, Davies, Steve Review. We can access these transitions optically, making the QW a great testbed for exploring electron dynamics within a simple and well-known potential CITE Steve Review. 
+\indent Using layers of semiconductors, one can generate similar one-dimensional confinement effects for electrons. A simple way this can be done is by sandwiching a layer of low-bandgap semiconductor material in between two layers of higher bandgap materials (CITE Davies). One period of this structure is shown in figure 2.4. If the well material is a direct-gap semiconductor, then simple optical transitions (i.e. not mediated by phonons) across the bandgap can be made, as the transition illustrated in figure 2.1. Figure \ref{GaAsBstruct} is the band structure for GaAs, the chosen well material for the studies of growth disorder. Annotated on the figure is the direct-gap transition zone of interest. The potential well created by the semiconductor sandwich leads to quantization of electron states within the well layer CITE Miller, Davies, Steve Review. We can access each of these states optically, making the QW a great testbed for exploring electron dynamics within a simple and well-known potential CITE Steve Review. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = .5\textwidth]{GaAsBstruct.eps}
-\caption{The band structure of GaAs, the allowed states are the thick horizontal curves, and the boxed region is the direct-gap region, in which electrons can be photo-excited across the gap. Note, the minima of this region look like the dispersion curve in \ref{GaAsBstruct}.}
+\includegraphics[width = .3\textwidth]{GaAsBstruct.eps}
+\caption{\doublespacing The band structure of GaAs, the allowed states are the thick horizontal curves, and the boxed region is the direct-gap region, in which electrons can be photo-excited across the gap. Note, the minima of this region look like the dispersion curve in figure 2.1 CITE Davies.}
 \label{GaAsBstruct}
 \end{figure}
 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = .5\textwidth]{Well.eps}
-\caption{An example of the semiconductor quantum well. These layers can be repeated arbitrarily many times with arbitrary dimension and thickness for many types of application.}
+\includegraphics[width = .4\textwidth]{Well.eps}
+\caption{\doublespacing An example of the semiconductor quantum well. These layers can be repeated arbitrarily many times.}
 \label{GaAsBstruct}
 \end{figure}
 
+\newpage
+\subsection{The Exciton}
 
+\indent The simple picture presented above doesn't quite adequately represent the physics of an electron within a quantum well, however. After an excited electron moves from the valence band to the conduction band, it will leave behind a vacancy, or ``hole'', around its parent atom CITE Miller, Davies. The electron feels a \textit{screened} Coulomb potential from this vacancy, as the vacancy is positively charged. I'll briefly sketch why this potential arises and then introduce the key concept of this section: the excition. Imagine a number of electrons have been excited to their first excited state within the quantum well. Now, spatially, one will have a quasi-neutral distribution of electrons and holes in the well layer: an electron-hole plasma. I will assume that the holes are stationary relative to the electrons in the well, and that the excitation density is relatively low. These assumptions are \textit{a priori} unphysical, but they immensely simplify the derivation of the electron behavior within the well and preserve the important results. I want to approximately derive the potential an electron feels in justification for the exact single-electron Hamiltonian I will discuss later. 
 
+\indent Now, let's on the local behavior of free electrons due to one hole in the QW. Note that in this picture, electrons everywhere in the QW feel a Coulomb attraction to the hole, but the electrons immediately adjacent to the hole \textit{screen} its effects from charges far away. This phenomenon, known in plasma physics as Debye shielding CITE Chen and in quantum mechanics as electron screening CITE Griffiths, modifies the pure Coulomb potential one would expect a single electron-hole pair to experience. I will focus my attention on the potential a single electron will feel due to a single hole and the many-body effects on this potential of the electrons nearby. We will assume that the electrons in the plasma obey a Maxwellian density distribution. Now, the local density of electrons around the hole is 
 
-\indent The simple picture presented above doesn't quite adequately represent the physics of an electron within a quantum well, however. After an excited electron moves from the valence band to the conduction band, it will leave behind a vacancy, or `hole', around its parent atom CITE Miller, Davies. The electron feels a \textit{screened Coulomb potential} from this vacancy, as the vacancy is positively charged. I'll briefly sketch why this potential arises and then introduce the key concept of this section: the excition. Imagine a large number of electrons have been excited to their first excited state within the quantum well. Now, spatially, one will have a quasi-neutral distribution of electrons and holes in the well layer. Imagine inserting into this situation a positive charge. Adjacent electrons will immediately surround the positive charge, modifying the total Coulomb potential due to that charge, \textit{screening} its effects from charges far away. This phenomenon, known as Debye shielding CITE Chen, modifies the potential electrons feel from adjacent holes. If the potential electrons feel was exactly Coulombic in nature, then any bound state between an electron and a hole would be Hydrogenic CITE Griffiths. This potential, however, is \textit{not} exactly Culombic in nature, so the bound states between the electrons and holes don't exhibit exactly Hydrogenic behavior. The subtleties of the functional form of the wave function are treated in CITE Rogers, but a sketch of their form is in figure \ref{}. The photoexcited electron and an hole can form a bound pair, known as an exciton. The energy levels of this quasiparticle are discretized by its confinement in the quantum well. Additionally, coherent coupling of exciton states can be explored using multidimensional coherent spectroscopy CITE Steve Review, Bristow's PRL. 
+\begin{equation}
+n_e = n_{0}~ exp \Big[ \frac{e\phi}{k T}\Big]
+\end{equation}
+where $n_{0}$ is the electron density far away, $e$ is the electron charge, $\phi$ is the local electromagnetic potential, and  $T$ is the electron temperature. A complete derivation for the electron number density function with decent physical insight can be found in CITE Chen. The local electron distribution, assuming $e\phi \ll kT$ because the potential an electron feels due to one hole can be considered small relative to its thermal energy. Taylor expanding to first order, we find that
+\begin{equation}
+n_e \approx n_0 \Big[ \frac{e\phi}{k T}\Big ].
+\end{equation}
+
+ Now, our local charge density is 
+ 
+
+\begin{equation}
+\rho(r) = e \Big [ \delta(r) + n_0 \Big( \frac{e\phi}{k T}\Big ) \Big]
+\end{equation}
+
+where we've assumed that the hole has positive charge magnitude $e$, is infinitely small, and situated at the origin. The Poisson equation reads
+\begin{equation} \label{pois}
+\epsilon_0 \bigtriangledown^2 \phi(r) = -e \Big [ \delta(r) + n_0 \Big( \frac{e\phi}{k T}\Big ) \Big].
+\end{equation}
+We can define a constant, 
+\begin{equation}
+k^2 = \frac{n_0 e\phi}{\epsilon_0 k T}
+\end{equation}
+and now the Poisson equation is
+\begin{equation}
+\big(\bigtriangledown^2 - k^2 \big) \phi = - \frac{e \delta(r)}{\epsilon_0}.
+\end{equation}
+This is known as the screened Poisson equation, and its solution is
+
+\begin{equation}
+\phi(r) = -\frac{e}{4\pi \epsilon_0 r} e^{-k r}.
+\end{equation}
+\indent Now, $\phi(r)$, functionally, \textit{exactly} the correct result (albeit with a different k) had we proceeded under the Thomas-Fermi approximation, assuming only that the potential is weak and varies smoothly and slowly over a distance around the hole equivalent to $\frac{1}{k_f}$. This turns out to be a very good approximation for the local potential an electron feels relatively close to a hole CITE Patterson. The single-particle hamilltonian for an electron in the QW is now:
+
+\begin{equation}
+\hat{H} = - \frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} - \frac{e}{4\pi \epsilon_0 r} e^{-k_0 r}
+\end{equation}
+
+where $k_0^2 = \frac{n_0 e\phi}{k T_f}$ is the ``corrected'' k for the same potential derived under the Thomas-Fermi approximation CITE Patterson. 
+
+\indent Note that if the potential electrons feel was exactly Coulombic in nature, then any bound state between an electron and a hole would be hydrogenic CITE Griffiths. This potential, however, is \textit{not} exactly Culombic in nature, so the bound states between the electrons and holes can't be described by hydrogenic wavefunctions. Nevertheless, bound states between an exited electron and an adjacent hole do exist, and when an electron and hole occupy these states, they form a quasiparticle called an ``exciton", and they can be treated as a single particle.
+
+\indent The subtleties of the wave function are treated in CITE Rogers, but a sketch of their form is in figure 2.5. The energy levels of the QW exciton are discretized by its confinement, but those of excitons created in the bulk are not. A final important note: in both my derivation and those proceeding under the Thomas-Fermi approximation, the hole is assumed to be a \textit{stationary} point particle. This is emphatically \textit{not} true, but the physics doesn't change that much if we assume both charge carriers are mobile. Excitons can still be treated as a single particle with a mass equal to the reduced electron-hole mass. This is known as the reduced-mass approximation, and its importance will become evident shortly. Figure \ref{} depicts a simple physical picture for excitons: the electron and hole excited energy levels can be thought of as the ground state of a particle trapped in a finite potential.  
+
+\begin{figure}[h!]
+\label{Spapprox}
+\centering
+\includegraphics[width = .7\textwidth]{SpApprox.eps}
+\caption{\doublespacing A simple model for the behavior of an exciton in a quantum well, suitable for the work completed herein.}
+\label{GaAsBstruct}
+\end{figure}
 
 
 \section{Quantum Well Disorder}
+\indent When an exciton is optically created, in a direct gap semiconductor such as GaAs, the charge carriers can recombine from the either exciton ``ground'' state ($n=1$), or ``excited''  states ($n>1$) and emit a photon at the exciton binding energy CITE Gilleo. Since I am only interested in linear, long-timescale exciton physics, we can treat QW excitons as an approximately two-level system, only looking at ground state recombination. The emission energies for QW excitons will be dependent on well depth, a function of the barrier composition, and well width. Control of QW layer thickness has improved immensely, as QW structures can be made to precise specifications with modern molecular beam epitaxial growth methods CITE Davies. However, imperfections of layer width on the order of a crystal monolayer occur unavoidably at the interface between the well and barrier materials during the QW manufacturing process CITE Yoshita Terrace paper (find better). In figure 2.6, an AFM picture of imperfections of a GaAs surface are shown. These defects, known as structural disorder, slightly change the width of the well layer and thus subtly modulate exciton emission energies, an illustration of which is shown in figure 2.7. By analogy to eq. 2.11, excitons localized in slightly thinner than average sections of the QW will emit at slightly higher energies than average. Conversely, excitons localized in thicker than average sections of the QW will emit at slightly lower energies than average. Thus, structural disorder is the main contribution to inhomogeneous broadening in the QW coherent optical response CITE Bristow. 
 
+\begin{figure}[h!]
+\label{disorder}
+\centering
+\includegraphics[width = .4\textwidth]{disorder.eps}
+\caption{\doublespacing An STM picture of the GaAs growth front, stopped mid-growth, of a 110 oriented sample. The shown defect size is roughly representative of disorder in modern GaAs samples grown by molecular beam epitaxy. However, defect size and shape is highly sample dependent, so disorder varies widely from one QW structure to the next. Note, the disorder terraces are on the order of 100nm across. Taken from CITE Yoshita Terrace.}
+\label{rel}
+\end{figure}
 
+\newpage
+\begin{figure}[t!]
+\label{rel-thickness}
+\centering
+\includegraphics[width = .9\textwidth]{rel-thickness.eps}
+\caption{\doublespacing In a), the energy of a ground state exciton located in a portion of the QW of average thickness, the blue line in b) depicts the ground state energy of an exciton located in a slightly thinner than average portion of the QW,  and in c), the blue line depicts the ground state energy of an exciton located in a slightly thicker than average portion of the QW. In both b) and c), the average exciton ground state energy is depicted by the maroon dashed line.}
+\end{figure}
 
 
 
 
 \section{Microphotoluminescence Spectroscopy}
+\indent Because local QW thickness determines exciton emission energy, a spatial picture of disorder is possible through spectral imaging. By using a continuous wave (CW) excitation source to create a population of QW excitons and monitoring the emission energy as a function of sample position, one can extract the local QW width. With sufficiently high resolution, obtaining a map of emission energies for a representative portion of a QW sample is possible. In order to obtain a map of emission energies, one must monitor the photoluminescence (PL) energies as a function of position CITE Steve's theory reccomendation. In a PL experiment, light of sufficiently high energy is shown on a sample, exciting a large number of charge carriers to the conduction band. During this process, electrons fall back into holes in the valance band, emitting a photon equivalent to the lost energy CITE Davies. If a QW exciton recombines, it will emit a photon equivalent the energy difference between the valance band and one of the quantized exciton states. If we regard the exciton as a two level system, by exciting QW excitons near-resonantly, the energy of the emitted photon will be equivalent to the energy difference between the valance band and the exciton ground state. 
+
+\indent In order to obtain an image of PL, we must collect the signal carefully. More precisely, if we are to obtain a spatial picture of QW disorder, we must collect and spectrally resolve a PL image. The PL will be emitted from the exciton population over a $4 \pi$ solid angle, so we must place the QW directly at the focus of our imaging system in order to form a clear PL image. Furthermore, since the scale of the disorder is on the order of 100nm CITE Yoshita Terrace paper, we must have comparable resolution for the PL image. Measuring a PL image is fairly easy, one must place the QW at the focus of a pair of lenses in a confocal optical geometry. Figure \ref{} is a diagram of this process, and the magnification of the PL image is set by the ratio of the lens focal lengths. Namely,
+\begin{equation}
+M = \frac{f_1}{f_2}
+\end{equation}
+where $f_2$ and $f_1$ are the focal lengths of the short focal length lens and the long focal length lens respectively, and $M$ is the image magnification factor. A PL experiment with sub-micron resolution which is capable of spectrally resolving a PL image is known as a ``microphotoluminescence spectroscopy" experiment, or $\mu$PL.
+\begin{figure}[h!]
+\label{confocal}
+\centering
+\includegraphics[width = .3\textwidth]{confocal.eps}
+\caption{\doublespacing A representation of a confocal optical geometry used to collect the PL from the QW sample. The PL image is being collected from a small region of the QW sample, magnified, and then collimated by the two lenses.}
+\end{figure}
+
+\indent As simple as the PL image collection is, it is difficult to obtain the requisite image resolution because the PL is around 750-800nm wavelength, but as I've asserted above, the islands can be smaller than this. What this means is that if we were able to image at the Abbe diffraction limit of our optical geometry, we still wouldn't have the resolution necessary to resolve adjacent disorder sites. The Abbe diffraction limit is
+\begin{equation}
+d = \frac{\lambda}{2nNA}
+\end{equation}
+where $\lambda$ is the wavelength of the PL image, $n$ is the index of refraction in the intermediate space between the sample and lens 2 (the imaging lens) in figure \ref{}, and $NA$ is the numerical aperture of lens 2. Note that $NA = f / D$ where $f$ is the focal length of the imaging lens and $D$ is its diameter. In our case, $d \approx 500 nm$ for $\lambda \approx 780 nm$, $n = 1$ in vacuum, and we pick $NA = .83$, as that was the NA of the lens in our experimental setup. 
+
+\indent In order to get around this limit, we either need to resort to exotic microscopic techniques, or we can employ a fairly simple trick. It has been shown that by increasing the index of refraction ($n$) with a solid immersion lens (SIL), the Abbe diffraction limit can be substantially reduced  CITE Yoshita Application paper, and broad SIL paper. In order to do this, one simply places a hemisphere of sufficiently high $n$ material between the sample and the imaging lens. Figure \ref{} is a diagrammatic representation of this improvement. Note, I'll use SIL and hemisphere interchangeably from here on out, though they aren't necessarily interchangeable, as SIL refers to a truncated sphere of some degree. 
+
+\indent In my experimental setup, I used a Zinc Selenide (ZnSe) SIL, for which $n = 2.4$ at $\lambda = 780 nm$. This improvement decreases the diffraction limit from $d \approx 500nm$ to $ d \approx 185 nm$, roughly sufficient resolution for our purposes. I'll expand on the precise setup in the next chapter, but the experiment will be very similar to what I've just described.
+\begin{figure}[h!]
+\label{confocal2}
+\centering
+\includegraphics[width = .3\textwidth]{confocal2.eps}
+\caption{\doublespacing A representation of the principle of our specific $\mu$PL experiment. The PL image leaves the SIL normal to the hemispheric surface, so it just increases $n$ and lowers the diffraction limit.}
+\end{figure}
+
 
 \section{Asymmetric Double Quantum Wells}
+\indent The second experiment conduced was a linear study of exciton states in the Asymmetric Double Quantum Well (AQW). 
 \section{Photoluminescence Excitation Spectroscopy}
