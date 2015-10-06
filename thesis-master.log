@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2015 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 OCT 2015 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1177,14 +1177,7 @@ Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
-(./thesis-master.aux
-
-LaTeX Warning: Label `GaAsBstruct' multiply defined.
-
-
-LaTeX Warning: Label `GaAsBstruct' multiply defined.
-
-)
+No file thesis-master.aux.
 \openout1 = `thesis-master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1199,7 +1192,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
 \scratchdimen=\dimen150
@@ -1270,7 +1263,8 @@ Type  H <return>  for immediate help.
                                                   
 l.21 \begin{document}
                      
-? 
+? s
+OK, entering \scrollmode...
 Making Approval Page
 [1
 
@@ -1297,110 +1291,36 @@ Making ToC Page
 
 ]
 centered
-(./thesis-master.toc
-LaTeX Font Info:    Try loading font information for U+lasy on input line 4.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+No file thesis-master.toc.
 \tf@toc=\write3
 \openout3 = `thesis-master.toc'.
-
 
 Making LoT Page
 [6
 
 ]
 centered
-(./thesis-master.lot)
+No file thesis-master.lot.
 \tf@lot=\write4
 \openout4 = `thesis-master.lot'.
-
 
 Making LoF Page
 [7
 
 ]
 centered
-(./thesis-master.lof
-./thesis-master.lof:4: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.4 ...e conduction band to the valance band.}}{7}
-                                                  
-? 
-./thesis-master.lof:5: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.5 ... infinite potential well of width $L$.}}{9}
-                                                  
-? 
-./thesis-master.lof:6: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.6 ...sion curve in figure 2.1 CITE Davies.}}{11}
-                                                  
-? 
-./thesis-master.lof:7: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.7 ...n be repeated arbitrarily many times.}}{12}
-                                                  
-? 
-./thesis-master.lof:8: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.8 ...itable for the work completed herein.}}{15}
-                                                  
-? 
-./thesis-master.lof:9: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.9 ...oss. Taken from CITE Yoshita Terrace.}}{16}
-                                                  
-? 
-./thesis-master.lof:10: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.10 ... depicted by the maroon dashed line.}}{20}
-                                                  
-? 
-[8
-
-]
-./thesis-master.lof:11: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.11 ...d then collimated by the two lenses.}}{20}
-                                                  
-? 
-./thesis-master.lof:12: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.12 ...nus\p@ A representation of a typical}}{21}
-                                                  
-? 
-)
+No file thesis-master.lof.
 \tf@lof=\write5
 \openout5 = `thesis-master.lof'.
-
 
 
 
 -------------------Beginning Body----------------------
 
 
-[9]
+[8
+
+]
 Putting page number on short ToC
 No LoT printed
 Putting page number on short LoF
@@ -1413,16 +1333,33 @@ Type  H <return>  for immediate help.
                                                   
 l.27 \begin{document}
                      
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (./macros.tex
 \c@th@theorem=\count139
 ) (./chapter1v2.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
-[1
+LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 
-] [2] [3]) (./chapter2v2.tex [4]
+] [2]
+[3]) (./chapter2v2.tex [4]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
 [5
@@ -1438,7 +1375,7 @@ Package epstopdf Info: Source file: <dispcurve.eps>
 .pdf dispcurve.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
- <dispcurve-eps-converted-to.pdf, id=52, 324.21124pt x 235.88126pt>
+ <dispcurve-eps-converted-to.pdf, id=49, 324.21124pt x 235.88126pt>
 File: dispcurve-eps-converted-to.pdf Graphic file (type pdf)
 
 <use dispcurve-eps-converted-to.pdf>
@@ -1449,6 +1386,9 @@ Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 25.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6] [7 <./dispcurve-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `infp' on page 8 undefined on input line 46.
+
 Package epstopdf Info: Source file: <infpotential.eps>
 (epstopdf)                    date: 2015-09-26 19:49:58
 (epstopdf)                    size: 1000322 bytes
@@ -1459,8 +1399,7 @@ Package epstopdf Info: Source file: <infpotential.eps>
 -to.pdf infpotential.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
-
-<infpotential-eps-converted-to.pdf, id=72, 164.615pt x 114.4275pt>
+<infpotential-eps-converted-to.pdf, id=69, 164.615pt x 114.4275pt>
 File: infpotential-eps-converted-to.pdf Graphic file (type pdf)
 
 <use infpotential-eps-converted-to.pdf>
@@ -1471,7 +1410,11 @@ Package pdftex.def Info: infpotential-eps-converted-to.pdf used on input line 5
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./infpotential-eps-converted-to.pdf>] [10]
+[8] [9 <./infpotential-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `GaAsBstruct' on page 10 undefined on input line 108.
+
+[10]
 Package epstopdf Info: Source file: <GaAsBstruct.eps>
 (epstopdf)                    date: 2015-09-29 08:38:36
 (epstopdf)                    size: 2086054 bytes
@@ -1482,8 +1425,7 @@ Package epstopdf Info: Source file: <GaAsBstruct.eps>
 to.pdf GaAsBstruct.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-
-<GaAsBstruct-eps-converted-to.pdf, id=92, 493.845pt x 455.7025pt>
+ <GaAsBstruct-eps-converted-to.pdf, id=88, 493.845pt x 455.7025pt>
 File: GaAsBstruct-eps-converted-to.pdf Graphic file (type pdf)
 
 <use GaAsBstruct-eps-converted-to.pdf>
@@ -1501,7 +1443,7 @@ Well.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<Well-eps-converted-to.pdf, id=93, 148.555pt x 96.36pt>
+<Well-eps-converted-to.pdf, id=89, 148.555pt x 96.36pt>
 File: Well-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Well-eps-converted-to.pdf>
@@ -1512,11 +1454,7 @@ Package pdftex.def Info: Well-eps-converted-to.pdf used on input line 120.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./GaAsBstruct-eps-converted-to.pdf>] [12 <./Well-eps-converted-to.pdf>]
-[13]
-
-LaTeX Warning: Reference `' on page 14 undefined on input line 174.
-
-[14]
+[13] [14]
 Package epstopdf Info: Source file: <SpApprox.eps>
 (epstopdf)                    date: 2015-10-04 14:56:38
 (epstopdf)                    size: 1346802 bytes
@@ -1527,7 +1465,7 @@ Package epstopdf Info: Source file: <SpApprox.eps>
 pdf SpApprox.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
- <SpApprox-eps-converted-to.pdf, id=118, 249.93375pt x 90.3375pt>
+ <SpApprox-eps-converted-to.pdf, id=115, 249.93375pt x 90.3375pt>
 File: SpApprox-eps-converted-to.pdf Graphic file (type pdf)
 
 <use SpApprox-eps-converted-to.pdf>
@@ -1545,7 +1483,7 @@ pdf disorder.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<disorder-eps-converted-to.pdf, id=149, 448.67625pt x 481.8pt>
+<disorder-eps-converted-to.pdf, id=146, 448.67625pt x 481.8pt>
 File: disorder-eps-converted-to.pdf Graphic file (type pdf)
 
 <use disorder-eps-converted-to.pdf>
@@ -1563,7 +1501,7 @@ d-to.pdf rel-thickness.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<rel-thickness-eps-converted-to.pdf, id=159, 346.29375pt x 90.3375pt>
+<rel-thickness-eps-converted-to.pdf, id=155, 346.29375pt x 90.3375pt>
 File: rel-thickness-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rel-thickness-eps-converted-to.pdf>
@@ -1571,9 +1509,6 @@ Package pdftex.def Info: rel-thickness-eps-converted-to.pdf used on input line
 200.
 (pdftex.def)             Requested size: 422.77661pt x 110.2929pt.
  [17 <./rel-thickness-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 210.
-
 Package epstopdf Info: Source file: <confocal.eps>
 (epstopdf)                    date: 2015-10-04 16:52:40
 (epstopdf)                    size: 1869970 bytes
@@ -1584,7 +1519,7 @@ Package epstopdf Info: Source file: <confocal.eps>
 pdf confocal.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
-<confocal-eps-converted-to.pdf, id=179, 201.75375pt x 251.94125pt>
+ <confocal-eps-converted-to.pdf, id=176, 201.75375pt x 251.94125pt>
 File: confocal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use confocal-eps-converted-to.pdf>
@@ -1594,41 +1529,35 @@ Package pdftex.def Info: confocal-eps-converted-to.pdf used on input line 218.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 226.
-
 [18]
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 228.
-
 Package epstopdf Info: Source file: <confocal2.eps>
-(epstopdf)                    date: 2015-10-04 17:23:39
-(epstopdf)                    size: 1067738 bytes
+(epstopdf)                    date: 2015-10-04 18:07:11
+(epstopdf)                    size: 1912910 bytes
 (epstopdf)             Output file: <confocal2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 17:30:49
-(epstopdf)                    size: 16580 bytes
+(epstopdf)                    date: 2015-10-05 12:27:53
+(epstopdf)                    size: 100459 bytes
 (epstopdf)             Command: <repstopdf --outfile=confocal2-eps-converted-to
 .pdf confocal2.eps>
 (epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
-<confocal2-eps-converted-to.pdf, id=183, 177.66376pt x 227.85126pt>
+ <confocal2-eps-converted-to.pdf, id=180, 193.72375pt x 243.91125pt>
 File: confocal2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use confocal2-eps-converted-to.pdf>
 Package pdftex.def Info: confocal2-eps-converted-to.pdf used on input line 234.
 
-(pdftex.def)             Requested size: 140.92792pt x 180.74452pt.
+(pdftex.def)             Requested size: 140.92792pt x 177.43962pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [19 <./confocal-eps-converted-to.pdf>] [20 <./confocal2-eps-converted-to.pdf>
-] (./thesis-master.aux)
+[19 <./confocal-eps-converted-to.pdf>]) [20 <./confocal2-eps-converted-to.pdf>]
+(./thesis-master.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -1636,13 +1565,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 27 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9284 strings out of 493089
- 166635 string characters out of 6134842
- 206341 words of memory out of 5000000
- 12670 multiletter control sequences out of 15000+600000
+ 9275 strings out of 493089
+ 166489 string characters out of 6134842
+ 206152 words of memory out of 5000000
+ 12669 multiletter control sequences out of 15000+600000
  11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,39p,10456b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,39p,10456b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1656,10 +1585,10 @@ pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on thesis-master.pdf (29 pages, 707979 bytes).
+Output written on thesis-master.pdf (28 pages, 790322 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 249 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
