@@ -6,35 +6,47 @@ This section will broadly lay out band theory of electron states in solids. I wi
 \subsection{Bandgap}
 
 %bandgap def, a little discussion
-\indent In order to understand how electrons behave in a crystalline solid, one must first understand how electrons act under the effect of a periodic potential, such as they would experience in a crystalline lattice. When we bring electron orbitals together in a molecule, the wave functions perturb each other. In the case of semiconductors, the Bloch theorem is a useful tool for understanding this problem quantum-mechanically, and a complete treatment can be found in CITE (Iadonisi and Siradesh). Fundamentally, if one assumes that valance electrons exist in an infinite, periodic, homogeneous lattice, then electron wave functions are invariant under translation from one lattice point to the next. The Bloch theorem states that under translation from lattice cite to lattice cite, the electron wavefunction will pick up a phase:
-
+\indent In order to understand how electrons behave in a crystalline solid, one must first understand how bound electrons act when arbitrarily many atoms are brought together in a lattice structure. Consider a collection of $N$ atoms sufficiently far apart such that interactions between atoms can be neglected. In this limit, electrons in an atom such as Hydrogen occupy \textit{discreet} energy levels. For instance: suppose all $N$ of our atoms are monatomic hydrogen atoms. In our system, an electron behaves according to the following Hamiltonian:
 \begin{equation}
-\phi = \vec{k}\cdot \vec{R_n}
+\hat{H} = -\frac{\hbar^2}{2m} \bigtriangledown^2 - \frac{e^2}{2\pi \epsilon_0 r}.
 \end{equation}
- 
-where $\vec{k}$ is the displacement wavevector and  $\vec{R_n}$ is the lattice vector for the $n$th lattice cite to which the wavefunction is translated CITE Iandonesi. Thus, the electron wavefunction becomes 
+We can find the electron wavefunctions $\psi(x)$ by solving the time independent Shr\"{o}dinger equation,
+\begin{equation}
+\hat{H}\psi(x) = E_n\psi(x)
+\end{equation}
+where $E_n$ is the energy of the $n^{th}$ energy level. This equation can be solved using the usual methods CITE Griffiths, but doing so here would be a diversion, so I'll just skip to the crucial points: evidently, the $n=2$ electron wavefunction (again neglecting interactions between atoms and ground state perturbations) is
+\begin{equation}
+\psi(x) = Y^m_l\frac{1}{\sqrt{2}}a^{-3/2}_0\Big(1-\frac{r}{2a_0}\Big ) exp\big(-r/2a_0 \big)
+\end{equation}
+where $a_0$ is the Bohr radius, $Y^m_l$ is either the $l=0, m=0$, the $l=1, m=1$, or the $l=1, m=1$ spherical harmonic. Note: each $n = 2$ energy level in this system is $N$-fold degenerate, as there are $N$ orbitals with the same energy. Considering just the $n = 2$ states and neglecting perturbations, electrons in these states evidently all have energy
+\begin{equation}
+E_2 = \frac{-13.6eV}{n^2} = \frac{-13.6eV}{4}.
+\end{equation}
+In the limit that many atoms are brought together such that interactions can no longer be neglected, two things happen: each $N$-fold degenerate electron energy level will split into $N$ components, and these levels will become so close that they will smear into allowed and disallowed energy densities of state CITE Indonesi, Siradesh, Grif, Davies. Roughly speaking, the occupied states are known as the ``valance band'' states, and the unoccupied states are known as the ``conduction band states''. The energy difference between the valance band and conduction band is called the bandgap, and its importance will be illuminated momentarily. 
 
- \begin{equation}
- \psi(\vec{r}) = e^{i \vec{k\cdot r}} u_k(\vec{r})
- \end{equation}
- 
-where $\vec{r}$ is the lattice coordinate and $u_k(\vec{r})$ is a periodic function for each primitive cell in the crystal. In the limit that many primitive cells are brought together in a crystal, two things happen: each n-fold degenerate electron energy level will split into n components, and these levels will become so close that they will smear into allowed and disallowed energy densities of state CITE Indonesi, Siradesh, Grif, Davies. If electrons have a high enough energy, they can occupy the ``conduction band'' states, or the lowest energy vacant states. Otherwise, electrons occupy the ``valence band'' states within the crystal. The energy difference between the valance band and conduction band is called the bandgap, and is illustrated in the example dispersion curve, figure 2.1. 
+\indent These band states are simultaneous eigenstates of both the Hamiltonian and the crystal momentum CITE Davies(?). This means that bands can be easily depicted in k-space using dispersion curves. Dispersion curves map out allowed band energies in k-space, and their full functional shape is dependent on the types and arrangement of constituent atoms.  Solids can be broadly organized into three categories based upon the k-space arrangement of their electron bands. In metals, the conduction band energies are below the highest energy valence band states and thus some conduction band states are occupied. In insulators, the bandgap is relatively large (about 10eV) CITE Mark Fox. By contrast in semiconductors, the bandgap is roughly 1eV and can therefore be optically accessed. Sometimes, as in the case of GaAs crystals, a local valance band minima and conduction band maxima occur for the same value of $k$ in k-space. Semiconductors with this sort of bandstructure are known as direct-gap semiconductors. Around this value of k, electrons can absorb a photon with enough energy to undergo a direct transition from the valance band to the conduction band  CITE Iandonesi, Galan thesis. This fact forms the basis of linear and nonlinear optical studies of semiconductor nanostructures (CITE Steve review), photonic devices, and certain types of theoretical quantum information processing schemes (CITE Nature Review of QI).
 
-\begin{figure}[h!]
+\begin{figure}[h]
 \centering
-\includegraphics[width = .7\textwidth]{dispcurve.eps}
+\includegraphics[width = .4\textwidth]{dispcurve.eps}
 \caption{ \doublespacing A typical dispersion curve minima for a direct-gap semiconductor. An optical transition is illustrated at $k = 0$, where an electron is absorbing a photon resulting in a transition from the conduction band to the valance band.}
 \label{ExampleBands}
 \end{figure}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width = .3\textwidth]{GaAsBstruct.eps}
+\caption{\doublespacing The band structure of GaAs, the allowed states are the thick horizontal curves, and the boxed region is the direct-gap region, in which electrons can be make direct transitions across the bandgap. Note, the minima of this region look like the dispersion curve in figure 2.1 CITE Davies.}
+\label{GaAsBstruct}
+\end{figure}
 %dispersion curves
-\indent Dispersion curves map out allowed band energies in k-space, and their full functional shape is dependent on the types and arrangement of constituent atoms.  Solids can be broadly organized into three categories based upon the k-space arrangement of their electron bands. In metals, the conduction band energies are below the highest energy valence band states and thus some conduction band states are occupied. In insulators, the bandgap is relatively large (about 10eV) CITE Mark Fox. By contrast in semiconductors, the bandgap is roughly 1eV and can therefore be optically accessed. Importantly, semiconductor electrons can absorb a photon with enough energy to transition from the valance band to the conduction band, a phenomena known as ``interband absorbtion'' CITE Iandonesi, Galan thesis. This fact forms the basis of linear and nonlinear optical studies of semiconductor nanostructures (CITE Steve review), photonic devices, and certain types of theoretical quantum information processing schemes (CITE Nature Review of QI).
+
 
 %Discussion of bands in GaAs and AlGaAs, p orbital smearing etc. Find p 63 in davies. (maybe here maybe later)
-
+\newpage
 \subsection{Confinement}
 %confinement intro
-\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE Griffiths. In the previous section, I briefly introduced the bandgap, and its important physical properties. In this section, I'll illustrate an interesting application of band theory: the semiconductor quantum well (QW). First, it is important to understand what we mean by confinement, and how quantized energy levels arise for confined particles. I will then construct a physical picture for QWs, and then I will discuss the formation of excitons and a simple physical model of their behavior, sufficient for understanding the spectroscopy conducted in this thesis.
+\indent It is well known that nanometer scale confinement of particles results in quantized energy states CITE Griffiths. In the previous section, I briefly introduced the bandgap, and its important physical properties. In this section, I'll illustrate an interesting application of band theory: the semiconductor quantum well (QW). First, it is important to understand what we mean by confinement, and how quantized energy levels arise for confined particles. I will draw an analogy to a familiar physical situation, the particle confined within an infinite potential. I will then use this analogy to construct a physical picture for QWs, and then I will discuss the formation of excitons and a simple physical model of their behavior, sufficient for understanding the spectroscopy conducted in this thesis.
 
 \indent Perhaps the simplest problem in quantum mechanics is the of confinement of a particle in an infinite, one dimensional potential well. I will sketch a derivation of the wave function of a particle trapped in such a well, and use this derivation as the basis for exploring the physics of the QW exciton. We will begin by considering an arbitrary particle confined in a one dimensional infinite potential well. The potential that our arbitrary particle feels is:
 
@@ -68,51 +80,35 @@ where $m$ is the particle's mass, and $E$ is the particle's  total energy. The t
 \begin{equation} \label{tise}
 \frac{\partial^2}{\partial x^2} \psi(x) = - \alpha \psi(x)
 \end{equation}
-
 where we define 
-
 \begin{equation}
 \alpha = \frac{2mE}{\hbar^2}.
 \end{equation}
-Now, eq. 2.4 looks like the familiar simple harmonic oscillator equation from classical mechanics. Because the wave function must be continuous at $x = L$ and $ x = 0$, i.e. it vanishes at those locations, and the potential is odd about the origin,  solutions to eq. 2.5 have the form:
-
+Now, eq. 2.7 looks like the familiar simple harmonic oscillator equation from classical mechanics. Because the wave function must be continuous at $x = L$ and $ x = 0$, i.e. it vanishes at those locations, and the potential is odd about the origin,  solutions to eq. 2.7 have the form:
 \begin{equation} \label{soln1}
 \psi(x) = A sin(k x) 
 \end{equation}
-
-where $k$ contains $E$ and is determined by our boundary conditions. Now we want $\psi(L)$ to vanish, but we can't have $A =0$, because that is the trivial solution to eq. 2.5. Therefore, because we want $\psi(L) = Asin(k L) = 0 $, we must have $ka = \pm n \pi$ where $n \in \mathbb{N}$. Now, we can absorb all of the negative combinations of $k L$ into our normalization constant, $A$. We have, then, that 
-
+where $k$ contains $E$ and is determined by our boundary conditions. Now we want $\psi(L)$ to vanish, but we can't have $A =0$, because that is the trivial solution to eq. 2.7. Therefore, because we want $\psi(L) = Asin(k L) = 0 $, we must have $ka = \pm n \pi$ where $n \in \mathbb{N}$. Now, we can absorb all of the negative combinations of $k L$ into our normalization constant, $A$, and we have, then, that 
 \begin{equation}
 k_n L = n \pi 
 \end{equation}
-
 where the subscript denotes the fact that we now have infinitely many, \textit{discreet} solutions to eq. 2.5. Evidently 
-
 \begin{equation}
 k_n = \frac{ n \pi}{L}
 \end{equation}
-
 and therefore
-
 \begin{equation}
 \psi(x) = A sin(\frac{n \pi x}{L}).
 \end{equation}
-
 Now, if we let $k_n = \alpha$ and solve for E, we obtain
-
 \begin{equation}
 E = \frac{n^2 \pi^2 \hbar^2}{2 m L^2}.
 \end{equation}
-It will do us no good to normalize the wavefunctions we found, as their use for our purposes is minimal. The important part is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels. 
+It will do us no good to normalize the wavefunctions we found, as their use for our purposes is minimal. The important part is that confinement in one dimension resulted in our particle occupying \textit{discreet} energy levels whose energy depends on the size of the confinement potential. 
 
 \indent Using layers of semiconductors, one can generate similar one-dimensional confinement effects for electrons. A simple way this can be done is by sandwiching a layer of low-bandgap semiconductor material in between two layers of higher bandgap materials (CITE Davies). One period of this structure is shown in figure 2.4. If the well material is a direct-gap semiconductor, then simple optical transitions (i.e. not mediated by phonons) across the bandgap can be made, as the transition illustrated in figure 2.1. Figure \ref{GaAsBstruct} is the band structure for GaAs, the chosen well material for the studies of growth disorder. Annotated on the figure is the direct-gap transition zone of interest. The potential well created by the semiconductor sandwich leads to quantization of electron states within the well layer CITE Miller, Davies, Steve Review. We can access each of these states optically, making the QW a great testbed for exploring electron dynamics within a simple and well-known potential CITE Steve Review. 
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width = .3\textwidth]{GaAsBstruct.eps}
-\caption{\doublespacing The band structure of GaAs, the allowed states are the thick horizontal curves, and the boxed region is the direct-gap region, in which electrons can be photo-excited across the gap. Note, the minima of this region look like the dispersion curve in figure 2.1 CITE Davies.}
-\label{GaAsBstruct}
-\end{figure}
+
 
 
 \begin{figure}[h!]
@@ -125,25 +121,21 @@ It will do us no good to normalize the wavefunctions we found, as their use for 
 \newpage
 \subsection{The Exciton}
 
-\indent The simple picture presented above doesn't quite adequately represent the physics of an electron within a quantum well, however. After an excited electron moves from the valence band to the conduction band, it will leave behind a vacancy, or ``hole'', around its parent atom CITE Miller, Davies. The electron feels a \textit{screened} Coulomb potential from this vacancy, as the vacancy is positively charged. I'll briefly sketch why this potential arises and then introduce the key concept of this section: the excition. Imagine a number of electrons have been excited to their first excited state within the quantum well. Now, spatially, one will have a quasi-neutral distribution of electrons and holes in the well layer: an electron-hole plasma. I will assume that the holes are stationary relative to the electrons in the well, and that the excitation density is relatively low. These assumptions are \textit{a priori} unphysical, but they immensely simplify the derivation of the electron behavior within the well and preserve the important results. I want to approximately derive the potential an electron feels in justification for the exact single-electron Hamiltonian I will discuss later. 
+\indent The simple picture presented above doesn't quite adequately represent the physics of an electron within a quantum well, however. After an excited electron moves from the valence band to the conduction band, it will leave behind a vacancy, or ``hole'', around its parent atom CITE Miller, Davies. The electron feels a \textit{screened} Coulomb potential from this vacancy, as the vacancy is positively charged. I'll briefly sketch why this potential arises and then introduce the key concept of this section: the excition. Imagine a number of electrons have been excited within the QW. Now, spatially, one will have a quasi-neutral distribution of electrons and holes in the well layer: an electron-hole plasma. I will assume that the holes are stationary relative to the electrons in the well, and that the excitation density is relatively low. These assumptions are \textit{a priori} unphysical, but they immensely simplify the derivation of the electric potential QW electrons feel, and preserve the important physical results. 
 
-\indent Now, let's on the local behavior of free electrons due to one hole in the QW. Note that in this picture, electrons everywhere in the QW feel a Coulomb attraction to the hole, but the electrons immediately adjacent to the hole \textit{screen} its effects from charges far away. This phenomenon, known in plasma physics as Debye shielding CITE Chen and in quantum mechanics as electron screening CITE Griffiths, modifies the pure Coulomb potential one would expect a single electron-hole pair to experience. I will focus my attention on the potential a single electron will feel due to a single hole and the many-body effects on this potential of the electrons nearby. We will assume that the electrons in the plasma obey a Maxwellian density distribution. Now, the local density of electrons around the hole is 
+\indent Let's explore the local behavior of an excited electron due to a single adjacent hole in the QW. Note that in this picture, electrons everywhere in the QW feel a Coulomb attraction to the hole, but the electrons adjacent to the hole \textit{screen} its effects from charges far away. This phenomenon, known in plasma physics as Debye shielding CITE Chen and in quantum mechanics as electron screening CITE Griffiths, modifies the pure Coulomb potential one would expect a single electron-hole pair to experience. We will assume that the electrons in the plasma obey a Maxwellian density distribution. Now, the local density of electrons around the hole is 
 
 \begin{equation}
 n_e = n_{0}~ exp \Big[ \frac{e\phi}{k T}\Big]
 \end{equation}
-where $n_{0}$ is the electron density far away, $e$ is the electron charge, $\phi$ is the local electromagnetic potential, and  $T$ is the electron temperature. A complete derivation for the electron number density function with decent physical insight can be found in CITE Chen. The local electron distribution, assuming $e\phi \ll kT$ because the potential an electron feels due to one hole can be considered small relative to its thermal energy. Taylor expanding to first order, we find that
+where $n_{0}$ is the electron density far away, $e$ is the electron charge, $\phi$ is the local electromagnetic potential, and  $T$ is the electron temperature. A complete derivation for this electron number density in an arbitrary plasma can be found in CITE Chen. This is the local electron distribution, and we can assume $e\phi \ll kT$ because the potential an electron feels due to one hole can be considered small relative to its thermal energy. Taylor expanding to first order, we find that
 \begin{equation}
 n_e \approx n_0 \Big[ \frac{e\phi}{k T}\Big ].
 \end{equation}
-
- Now, our local charge density is 
- 
-
+Now, our local charge density is 
 \begin{equation}
-\rho(r) = e \Big [ \delta(r) + n_0 \Big( \frac{e\phi}{k T}\Big ) \Big]
+\rho(r) = e \Big [ \delta(r) - n_0 \Big( \frac{e\phi}{k T}\Big ) \Big]
 \end{equation}
-
 where we've assumed that the hole has positive charge magnitude $e$, is infinitely small, and situated at the origin. The Poisson equation reads
 \begin{equation} \label{pois}
 \epsilon_0 \bigtriangledown^2 \phi(r) = -e \Big [ \delta(r) + n_0 \Big( \frac{e\phi}{k T}\Big ) \Big].
@@ -157,21 +149,18 @@ and now the Poisson equation is
 \big(\bigtriangledown^2 - k^2 \big) \phi = - \frac{e \delta(r)}{\epsilon_0}.
 \end{equation}
 This is known as the screened Poisson equation, and its solution is
-
 \begin{equation}
 \phi(r) = -\frac{e}{4\pi \epsilon_0 r} e^{-k r}.
 \end{equation}
 \indent Now, $\phi(r)$, functionally, \textit{exactly} the correct result (albeit with a different k) had we proceeded under the Thomas-Fermi approximation, assuming only that the potential is weak and varies smoothly and slowly over a distance around the hole equivalent to $\frac{1}{k_f}$. This turns out to be a very good approximation for the local potential an electron feels relatively close to a hole CITE Patterson. The single-particle hamilltonian for an electron in the QW is now:
-
 \begin{equation}
 \hat{H} = - \frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} - \frac{e}{4\pi \epsilon_0 r} e^{-k_0 r}
 \end{equation}
-
 where $k_0^2 = \frac{n_0 e\phi}{k T_f}$ is the ``corrected'' k for the same potential derived under the Thomas-Fermi approximation CITE Patterson. 
 
-\indent Note that if the potential electrons feel was exactly Coulombic in nature, then any bound state between an electron and a hole would be hydrogenic CITE Griffiths. This potential, however, is \textit{not} exactly Culombic in nature, so the bound states between the electrons and holes can't be described by hydrogenic wavefunctions. Nevertheless, bound states between an exited electron and an adjacent hole do exist, and when an electron and hole occupy these states, they form a quasiparticle called an ``exciton", and they can be treated as a single particle.
+\indent Note that if the potential electrons feel was exactly Coulombic in nature, then any bound state between an electron and a hole would be hydrogenic CITE Griffiths. This potential, however, is \textit{not} exactly Culombic in nature, so the bound states between the electrons and holes can't be described by hydrogenic wavefunctions. Nevertheless, bound states between an exited electron and an adjacent hole do exist, and when an electron and hole occupy these states, they form a quasiparticle called an ``exciton", and they can be treated as a single particle with an effective mass CITE Davies, Iandonesi, Rogers.
 
-\indent The subtleties of the wave function are treated in CITE Rogers, but a sketch of their form is in figure 2.5. The energy levels of the QW exciton are discretized by its confinement, but those of excitons created in the bulk are not. A final important note: in both my derivation and those proceeding under the Thomas-Fermi approximation, the hole is assumed to be a \textit{stationary} point particle. This is emphatically \textit{not} true, but the physics doesn't change that much if we assume both charge carriers are mobile. Excitons can still be treated as a single particle with a mass equal to the reduced electron-hole mass. This is known as the reduced-mass approximation, and its importance will become evident shortly. Figure 2.5 depicts a simple physical picture for excitons: the electron and hole excited energy levels can be thought of as the ground state of a particle trapped in a finite potential.  
+\indent The subtleties of the wave function are treated in CITE Rogers, exploring their exact functional form and corresponding density of exciton states in the QW will not be of use to us here. Only energy levels of the QW exciton are discretized by its confinement, those of excitons created in the bulk are not. A final important note: in both my derivation and those proceeding under the Thomas-Fermi approximation, the hole is assumed to be a \textit{stationary} point particle. This is emphatically \textit{not} true, but the physics doesn't change that much if we assume both charge carriers are mobile. Excitons can still be treated as a single particle even removing this assumption. Figure 2.5 depicts a simple physical picture for excitons: the electron and hole excited energy levels can be thought of as the ground state of a particle trapped in a finite potential.  
 
 \begin{figure}[h!]
 \label{Spapprox}
