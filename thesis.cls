@@ -237,11 +237,11 @@
 %%%%%%% DEFINE DOUBLE-SPACING (THE DEFAULT) AND OTHER SPACING:
 \def\setspace@size{\ifx\@currsize\normalsize\@normalsize\else\@currsize\fi}
 \def\doublespacing{ \ifcase \@ptsize \relax
-      \def \baselinestretch {2.004}%	10pt
-  \or \def \baselinestretch {1.771}%	11pt
-  \or \def \baselinestretch {1.660}%	12pt
+      \def\baselinestretch {2.004}%	10pt
+  \or \def\baselinestretch {1.771}%	11pt
+  \or \def\baselinestretch {1.660}%	12pt
   \fi \setspace@size}
-\def\singlespacing{\def \baselinestretch {1} \setspace@size \vskip \baselineskip}
+\def\singlespacing{\def\baselinestretch {1} \setspace@size \vskip \baselineskip}
 \def\setstretch#1{\renewcommand{\baselinestretch}{#1}}
 \def\@setsize#1#2#3#4{\@nomath#1
   \let\@currsize#1 \baselineskip #2
