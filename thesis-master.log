@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 OCT 2015 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 OCT 2015 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1436,6 +1436,50 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
+./thesis-master.lof:14: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.14 ...smooth rotation in either direction.}}{22}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:15: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.15 ...smooth rotation in either direction.}}{23}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:16: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.16 ...he relatively soft ZnSe hemispheres.}}{24}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:17: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.17 ...htly to randomize the SIL polishing.}}{25}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 )
 \tf@lof=\write5
 \openout5 = `thesis-master.lof'.
@@ -1478,10 +1522,10 @@ centered
 
 ] [6]
 Package epstopdf Info: Source file: <dispcurve.eps>
-(epstopdf)                    date: 2015-10-03 13:43:10
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 486030 bytes
 (epstopdf)             Output file: <dispcurve-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-03 13:47:49
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 30209 bytes
 (epstopdf)             Command: <repstopdf --outfile=dispcurve-eps-converted-to
 .pdf dispcurve.eps>
@@ -1494,10 +1538,10 @@ File: dispcurve-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 31.
 (pdftex.def)             Requested size: 187.89912pt x 136.70683pt.
 Package epstopdf Info: Source file: <GaAsBstruct.eps>
-(epstopdf)                    date: 2015-09-29 08:38:36
+(epstopdf)                    date: 2015-09-27 11:41:40
 (epstopdf)                    size: 2086054 bytes
 (epstopdf)             Output file: <GaAsBstruct-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-29 08:38:36
+(epstopdf)                    date: 2015-09-27 11:43:54
 (epstopdf)                    size: 147503 bytes
 (epstopdf)             Command: <repstopdf --outfile=GaAsBstruct-eps-converted-
 to.pdf GaAsBstruct.eps>
@@ -1553,10 +1597,10 @@ Package pdftex.def Info: Well-eps-converted-to.pdf used on input line 116.
  [11 <./Well-eps-converted-to.pdf>] [12]
 [13]
 Package epstopdf Info: Source file: <SpApprox.eps>
-(epstopdf)                    date: 2015-10-04 14:56:38
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 1346802 bytes
 (epstopdf)             Output file: <SpApprox-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 14:57:43
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 52204 bytes
 (epstopdf)             Command: <repstopdf --outfile=SpApprox-eps-converted-to.
 pdf SpApprox.eps>
@@ -1574,10 +1618,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14]
 Package epstopdf Info: Source file: <disorder.eps>
-(epstopdf)                    date: 2015-10-04 15:15:25
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 2695898 bytes
 (epstopdf)             Output file: <disorder-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 15:19:44
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 132073 bytes
 (epstopdf)             Command: <repstopdf --outfile=disorder-eps-converted-to.
 pdf disorder.eps>
@@ -1595,10 +1639,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15 <./SpApprox-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <rel-thickness.eps>
-(epstopdf)                    date: 2015-10-04 14:56:27
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 415802 bytes
 (epstopdf)             Output file: <rel-thickness-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 15:19:01
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 27325 bytes
 (epstopdf)             Command: <repstopdf --outfile=rel-thickness-eps-converte
 d-to.pdf rel-thickness.eps>
@@ -1622,10 +1666,10 @@ Overfull \vbox (12.08006pt too high) has occurred while \output is active []
 
 [16 <./disorder-eps-converted-to.pdf> <./rel-thickness-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <confocal.eps>
-(epstopdf)                    date: 2015-10-04 16:52:40
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 1869970 bytes
 (epstopdf)             Output file: <confocal-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 16:55:49
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 94389 bytes
 (epstopdf)             Command: <repstopdf --outfile=confocal-eps-converted-to.
 pdf confocal.eps>
@@ -1640,10 +1684,10 @@ Package pdftex.def Info: confocal-eps-converted-to.pdf used on input line 207.
 (pdftex.def)             Requested size: 140.92792pt x 175.98477pt.
  [17] [18 <./confocal-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <confocal2.eps>
-(epstopdf)                    date: 2015-10-04 18:07:11
+(epstopdf)                    date: 2015-10-06 18:18:40
 (epstopdf)                    size: 1912910 bytes
 (epstopdf)             Output file: <confocal2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-05 12:27:53
+(epstopdf)                    date: 2015-10-09 22:18:02
 (epstopdf)                    size: 100459 bytes
 (epstopdf)             Command: <repstopdf --outfile=confocal2-eps-converted-to
 .pdf confocal2.eps>
@@ -1657,7 +1701,87 @@ Package pdftex.def Info: confocal2-eps-converted-to.pdf used on input line 223.
 
 (pdftex.def)             Requested size: 140.92792pt x 177.43962pt.
  [19 <./confocal2-eps-converted-to.pdf>])
-[20] (./thesis-master.aux)
+(./chapter3.tex [20]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
+centered
+[21
+
+]
+Package epstopdf Info: Source file: <laser.eps>
+(epstopdf)                    date: 2015-10-09 20:05:52
+(epstopdf)                    size: 1303962 bytes
+(epstopdf)             Output file: <laser-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-09 22:30:58
+(epstopdf)                    size: 16808 bytes
+(epstopdf)             Command: <repstopdf --outfile=laser-eps-converted-to.pdf
+ laser.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+ <laser-eps-converted-to.pdf, id=216, 433.62pt x 164.615pt>
+File: laser-eps-converted-to.pdf Graphic file (type pdf)
+
+<use laser-eps-converted-to.pdf>
+Package pdftex.def Info: laser-eps-converted-to.pdf used on input line 10.
+(pdftex.def)             Requested size: 328.82706pt x 124.83742pt.
+Package epstopdf Info: Source file: <Actuator.eps>
+(epstopdf)                    date: 2015-10-09 22:22:00
+(epstopdf)                    size: 1479826 bytes
+(epstopdf)             Output file: <Actuator-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-09 22:22:11
+(epstopdf)                    size: 23605 bytes
+(epstopdf)             Command: <repstopdf --outfile=Actuator-eps-converted-to.
+pdf Actuator.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+
+<Actuator-eps-converted-to.pdf, id=217, 283.0575pt x 477.785pt>
+File: Actuator-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Actuator-eps-converted-to.pdf>
+Package pdftex.def Info: Actuator-eps-converted-to.pdf used on input line 18.
+(pdftex.def)             Requested size: 164.4171pt x 277.53104pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./laser-eps-converted-to.pdf>] [23 <./Actuator-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <lapp.eps>
+(epstopdf)                    date: 2015-10-09 20:50:41
+(epstopdf)                    size: 1554214 bytes
+(epstopdf)             Output file: <lapp-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-09 22:51:29
+(epstopdf)                    size: 34295 bytes
+(epstopdf)             Command: <repstopdf --outfile=lapp-eps-converted-to.pdf 
+lapp.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+
+<lapp-eps-converted-to.pdf, id=239, 358.33875pt x 361.35pt>
+File: lapp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lapp-eps-converted-to.pdf>
+Package pdftex.def Info: lapp-eps-converted-to.pdf used on input line 33.
+(pdftex.def)             Requested size: 140.92792pt x 142.11139pt.
+ [24 <./lapp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <lathe.eps>
+(epstopdf)                    date: 2015-10-09 21:20:38
+(epstopdf)                    size: 1167050 bytes
+(epstopdf)             Output file: <lathe-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-09 22:59:20
+(epstopdf)                    size: 13556 bytes
+(epstopdf)             Command: <repstopdf --outfile=lathe-eps-converted-to.pdf
+ lathe.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+
+<lathe-eps-converted-to.pdf, id=247, 223.83624pt x 68.255pt>
+File: lathe-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lathe-eps-converted-to.pdf>
+Package pdftex.def Info: lathe-eps-converted-to.pdf used on input line 44.
+(pdftex.def)             Requested size: 375.80542pt x 114.6072pt.
+) [25 <./lathe-eps-converted-to.pdf>]
+(./thesis-master.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1667,13 +1791,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 27 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9283 strings out of 493089
- 166633 string characters out of 6134842
- 207342 words of memory out of 5000000
- 12669 multiletter control sequences out of 15000+600000
+ 9310 strings out of 493089
+ 167239 string characters out of 6134842
+ 207386 words of memory out of 5000000
+ 12689 multiletter control sequences out of 15000+600000
  11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,39p,10456b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,39p,10456b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1687,10 +1811,10 @@ pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on thesis-master.pdf (29 pages, 793887 bytes).
+Output written on thesis-master.pdf (34 pages, 879439 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 297 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
