@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 OCT 2015 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 OCT 2015 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1273,7 +1273,8 @@ Type  H <return>  for immediate help.
                                                   
 l.27 \begin{document}
                      
-? 
+? s
+OK, entering \scrollmode...
 Making Approval Page
 [1
 
@@ -1317,7 +1318,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [6
+
+])
 \tf@toc=\write3
 \openout3 = `thesis-master.toc'.
 
@@ -1326,9 +1329,7 @@ Making LoT Page
 Skipping LoT...
 Making LoF Page
 Making Short LoF...
-[6
-
-] [7]
+[7]
 centered
 Short Chapter (page numbered)
 (./thesis-master.lof
@@ -1337,43 +1338,78 @@ Short Chapter (page numbered)
                 \inaccessible 
 l.4 ...e conduction band to the valance band.}}{6}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:5: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.5 ...rsion curve in figure 2.1 CITE Davies.}}{7}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:6: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.6 ... infinite potential well of width $L$.}}{8}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:7: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.7 ...n be repeated arbitrarily many times.}}{10}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:8: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.8 ...itable for the work completed herein.}}{14}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:9: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.9 ...oss. Taken from CITE Yoshita Terrace.}}{15}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:10: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.10 ... depicted by the maroon dashed line.}}{15}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 [8
 
 ]
@@ -1382,14 +1418,23 @@ l.10 ... depicted by the maroon dashed line.}}{15}
                 \inaccessible 
 l.11 ...d then collimated by the two lenses.}}{17}
                                                   
-? 
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:12: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
 l.12 ...n$ and lowers the diffraction limit.}}{18}
                                                   
-? s
-OK, entering \scrollmode...
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
 ./thesis-master.lof:14: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
@@ -1437,7 +1482,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:18: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.18 ...se doubled the system magnification.}}{26}
+l.18 ...he red beam is the excitation laser.}}{26}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1450,6 +1495,39 @@ careful; see exercise 27.2 in The TeXbook.
 <inserted text> 
                 \inaccessible 
 l.19 ...ge as it translates across the slit.}}{27}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:20: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.20 ... of data collection steps to be run.}}{29}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:21: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.21 ...o control the excitation wavelength.}}{30}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:22: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.22 ... of data collection steps to be run.}}{31}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1748,36 +1826,36 @@ File: upl.pdf Graphic file (type pdf)
  <use upl.pdf>
 Package pdftex.def Info: upl.pdf used on input line 57.
 (pdftex.def)             Requested size: 469.75499pt x 363.00267pt.
-Package epstopdf Info: Source file: <specslit.eps>
-(epstopdf)                    date: 2015-10-10 16:01:32
-(epstopdf)                    size: 1296570 bytes
-(epstopdf)             Output file: <specslit-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=specslit-eps-converted-to.
-pdf specslit.eps>
-(epstopdf)             \includegraphics on input line 62.
-runsystem(repstopdf --outfile=specslit-eps-converted-to.pdf specslit.eps)...exe
-cuted safely (allowed).
 
-Package epstopdf Info: Result file: <specslit-eps-converted-to.pdf>.
-
-
-./chapter3.tex:62: Package pdftex.def Error: File `specslit-eps-converted-to.pd
-f' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...aphics[width = .5\textwidth]{specslit.eps}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<SpecSlit.png, id=262, 263.5446pt x 324.7332pt>
+File: SpecSlit.png Graphic file (type png)
+ <use SpecSlit.png>
+Package pdftex.def Info: SpecSlit.png used on input line 63.
+(pdftex.def)             Requested size: 140.92792pt x 173.65373pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./upl.pdf>]) [27] (./thesis-master.aux)
+[26 <./upl.pdf>] [27 <./SpecSlit.png (PNG copy)>]
+<softflow.png, id=497, 737.154pt x 168.63pt>
+File: softflow.png Graphic file (type png)
+ <use softflow.png>
+Package pdftex.def Info: softflow.png used on input line 84.
+(pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
+ [28] [29 <./softflow.png (PNG copy)>] <PLE.png, id=504, 607.3089pt x 322.806pt
+>
+File: PLE.png Graphic file (type png)
+ <use PLE.png>
+Package pdftex.def Info: PLE.png used on input line 95.
+(pdftex.def)             Requested size: 469.75499pt x 249.6992pt.
+
+[30 <./PLE.png>] <pleSoftflow.png, id=510, 737.154pt x 168.63pt>
+File: pleSoftflow.png Graphic file (type png)
+
+<use pleSoftflow.png>
+Package pdftex.def Info: pleSoftflow.png used on input line 105.
+(pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
+) [31 <./pleSoftflow.png>] (./thesis-master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1786,13 +1864,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9296 strings out of 493089
- 167103 string characters out of 6134842
- 207406 words of memory out of 5000000
- 12678 multiletter control sequences out of 15000+600000
- 11595 words of font info for 45 fonts, out of 8000000 for 9000
+ 9317 strings out of 493089
+ 167408 string characters out of 6134842
+ 207439 words of memory out of 5000000
+ 12696 multiletter control sequences out of 15000+600000
+ 11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,39p,10389b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,39p,10389b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1804,12 +1882,11 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis-master.pdf (37 pages, 1928113 bytes).
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis-master.pdf (41 pages, 2225074 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
+ 556 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
