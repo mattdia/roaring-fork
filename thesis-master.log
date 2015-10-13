@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 OCT 2015 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2015 11:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1190,18 +1190,18 @@ LaTeX Warning: Label `GaAsBstruct' multiply defined.
 )
 \openout1 = `thesis-master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
@@ -1265,13 +1265,13 @@ e
 ))
 Making Title Page
 
-./thesis-master.tex:27: LaTeX Error: There's no line here to end.
+./thesis-master.tex:28: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \begin{document}
+l.28 \begin{document}
                      
 ? s
 OK, entering \scrollmode...
@@ -1460,7 +1460,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:16: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.16 ...he relatively soft ZnSe hemispheres.}}{23}
+l.16 ...pheres to an optical quality finish.}}{23}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1482,7 +1482,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:18: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.18 ...he red beam is the excitation laser.}}{26}
+l.18 ...he red beam is the excitation laser.}}{27}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1494,7 +1494,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:19: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.19 ...ge as it translates across the slit.}}{27}
+l.19 ...ge as it translates across the slit.}}{28}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1505,7 +1505,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:20: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.20 ... of data collection steps to be run.}}{29}
+l.20 ... of data collection steps to be run.}}{30}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1516,7 +1516,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:21: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.21 ...o control the excitation wavelength.}}{30}
+l.21 ...o control the excitation wavelength.}}{31}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1527,7 +1527,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:22: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.22 ... of data collection steps to be run.}}{31}
+l.22 ... of data collection steps to be run.}}{32}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1795,7 +1795,17 @@ File: lapp-eps-converted-to.pdf Graphic file (type pdf)
 <use lapp-eps-converted-to.pdf>
 Package pdftex.def Info: lapp-eps-converted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 140.92792pt x 142.11139pt.
- [23 <./lapp-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `' on page 23 undefined on input line 40.
+
+
+LaTeX Warning: Reference `' on page 23 undefined on input line 40.
+
+
+LaTeX Warning: Reference `' on page 23 undefined on input line 40.
+
+[23 <./lapp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <lathe.eps>
 (epstopdf)                    date: 2015-10-09 23:07:27
 (epstopdf)                    size: 1167050 bytes
@@ -1827,6 +1837,9 @@ File: upl.pdf Graphic file (type pdf)
 Package pdftex.def Info: upl.pdf used on input line 57.
 (pdftex.def)             Requested size: 469.75499pt x 363.00267pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <SpecSlit.png, id=262, 263.5446pt x 324.7332pt>
 File: SpecSlit.png Graphic file (type png)
  <use SpecSlit.png>
@@ -1836,26 +1849,26 @@ Package pdftex.def Info: SpecSlit.png used on input line 63.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./upl.pdf>] [27 <./SpecSlit.png (PNG copy)>]
-<softflow.png, id=497, 737.154pt x 168.63pt>
+[26] [27 <./upl.pdf>] [28 <./SpecSlit.png (PNG copy)>]
+<softflow.png, id=498, 737.154pt x 168.63pt>
 File: softflow.png Graphic file (type png)
  <use softflow.png>
 Package pdftex.def Info: softflow.png used on input line 84.
 (pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
- [28] [29 <./softflow.png (PNG copy)>] <PLE.png, id=504, 607.3089pt x 322.806pt
->
+ [29] [30 <./softflow.png (PNG copy)>] <PLE.png, id=505, 607.3089pt x 322.3242p
+t>
 File: PLE.png Graphic file (type png)
- <use PLE.png>
-Package pdftex.def Info: PLE.png used on input line 95.
-(pdftex.def)             Requested size: 469.75499pt x 249.6992pt.
 
-[30 <./PLE.png>] <pleSoftflow.png, id=510, 737.154pt x 168.63pt>
+<use PLE.png>
+Package pdftex.def Info: PLE.png used on input line 95.
+(pdftex.def)             Requested size: 469.75499pt x 249.3265pt.
+ [31 <./PLE.png>] <pleSoftflow.png, id=511, 737.154pt x 168.63pt>
 File: pleSoftflow.png Graphic file (type png)
 
 <use pleSoftflow.png>
 Package pdftex.def Info: pleSoftflow.png used on input line 105.
 (pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
-) [31 <./pleSoftflow.png>] (./thesis-master.aux)
+) [32 <./pleSoftflow.png>] (./thesis-master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1864,10 +1877,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9317 strings out of 493089
- 167408 string characters out of 6134842
+ 9318 strings out of 493089
+ 167410 string characters out of 6134842
  207439 words of memory out of 5000000
- 12696 multiletter control sequences out of 15000+600000
+ 12697 multiletter control sequences out of 15000+600000
  11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,7n,39p,10389b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1883,10 +1896,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis-master.pdf (41 pages, 2225074 bytes).
+Output written on thesis-master.pdf (42 pages, 2225288 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 557 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
