@@ -2,7 +2,7 @@
 
 \section{$\mu$PL Results and Analysis for Multiple Quantum Well Samples}
 \subsection{Disorder in a Ten Quantum Well Structure}
-\indent As a proof-of-concept test for our $\mu$PL experiment, we decided to measure the structural disorder in a ten-period 10nm GaAs QW with 10nm AlGaAs barriers in between wells. We expected to see a large PL signal from this sample. Therefore, it was our goal to measure a PL image of the 10QW sample, with our laser exciting near-resonantly. Our excitation wavelength was 773nm, while our detection center wavelength was 818nm, and the PL signal peaked around 808nm. Figure \ref{raw10qw} shows a single raw image corresponding to a vertical slice of the total PL image. 
+\indent As a proof-of-concept test for our $\mu$PL experiment, we decided to measure the structural disorder in a ten-period 10nm GaAs QW with 10nm AlGaAs barriers in between wells. Note: for the following discussion, the ten-period QW and the four-period QW samples will be referred to as the 10QW and 4QW samples respectively. We expected to see a large PL signal from this sample. Therefore, it was our goal to measure a PL image of the 10QW sample, with our laser exciting near-resonantly. Our excitation wavelength was 773nm, while our detection center wavelength was 812nm, and the PL signal peaked around 808nm. Figure \ref{raw10qw} shows a single raw image corresponding to a vertical slice of the total PL image. 
 \begin{figure}[h!]
 \centering
 \includegraphics[width = .8\textwidth]{RAWCCDIMG.png}
@@ -25,7 +25,7 @@
 \caption{ \doublespacing A reconstructed PL image of 10QW sample surface. The small features in the image correspond to striations and dust on the surface of the sample. The excitation spot's maximum intensity occurred near the bottom of the image, corresponding to the PL amplitude maximum.}
 \label{total10qw}
 \end{figure}
-\indent From this image, we can estimate the resolution limit for the PL image alone. Doing so, we calculated that the resolution limit for our imaging system was limited by the repeatability of the lens position, $0.5\mu$m, which corresponds to 225nm at the sample surface. We were limited in the vertical direction by the pixel size, which was $13.6\mu$m. Our vertical resolution was no better than 612nm on the sample as a result. This was not our goal of 185nm; however, one can ameliorate this issue by inserting a telescope, with magnification two, between the NPBS and the achromatic doublet. An unfortunate side effect of increased resolution, however, was decreased signal strength. It was therefore necessary to increase CCD integration time or increase PL emission by increasing excitation power, but as we were exciting the sample with an already relatively high power of 1mW, increasing the resolution necessitated increasing integration time. For the 4QW sample, we took data with the telescope in place, but for the 10QW sample, a resolution of 225.0x612.0nm was the best we achieved.
+\indent From this image, we can estimate the resolution limit for the PL image alone. Doing so, we calculated that the resolution limit for our imaging system was limited by the repeatability of the lens position, $0.5\mu$m, which corresponds to 225nm at the sample surface. We were limited in the vertical direction by the pixel size, which was $13.6\mu$m. Because our magnification factor was 22.22x, our vertical resolution was no better than 612nm on the sample. This was not our goal of 185nm; however, one can ameliorate this issue by inserting a telescope, with 2x magnification, between the NPBS and the achromatic doublet. An unfortunate side effect of increased resolution, however, was decreased signal strength. It was therefore necessary to increase CCD integration time or increase PL emission by increasing excitation power, but as we were exciting the sample with an already relatively high power of 1mW, increasing the resolution necessitated increasing integration time. For the 4QW sample, we took data with the telescope in place, but for the 10QW sample, a resolution of 225.0x612.0nm was the best we achieved.
  
 
 
@@ -47,21 +47,45 @@ where $E_{avg}$ is the average emission energy for the whole PL picture, and $i,
 \begin{equation}
 \delta E = \frac{h^2 \pi^2}{2 \mu_{HH}}\Big ( \frac{1}{L^* \pm a}- \frac{1}{L^{*^2}} \Big )
 \end{equation}
-where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass CITE Glinka, Santos. 
+where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass CITE Glinka, Santos. We saw energy deviations of about \ref{0.1}meV, which was five times less than expected. This discrepancy was due for the most part to signal averaging within the 10QW sample PL image: the relatively weak PL signal from spots in the wells which deviated from average width was most likely from the first few wells, and not all 10QWs. Additionally, since we looked only at the maximum amplitude PL signal from each point in the sample, due to the random distribution of disorder, the maximum PL energies at each PL image location would tend to be those closer than expected to those for the sample as a whole, as the signal at each location was presumably an average over the QW emission from each well at each imaging location. In other words: the way we took our PL image meant that any disorder deviations we saw would be due to the additive effects of disorder over multiple wells, which means that disorder fluctuations were smaller than expected in the one QW limit.
+
 \begin{itemize}
 \item 10QW experiments\\
 \* PL image and raw img, PL deviation small. Estimate smoothing, estimate resolution, comment on disorder agreement with thry.
 \end{itemize}
+
+
 \subsection{Disorder in a Four Quantum Well Structure}
+Because the 10QW PL energy deviations due disorder was fairly small, we decided to take $\mu$PL data on a four-period 10nm GaAs QW with 10nm AlGaAs barriers. As 4QW sample had fewer wells, but each was identical in width to the 10QW sample, we expected to see larger disorder energy deviations because there would be fewer wells over which the signal would be averaged. Additionally, we inserted a telescope into the PL imaging path, increasing our on-sample resolution. In the horizontal direction, the resolution limit was no longer set by the lens translation. Rather, since we were able to magnify our image by 2x, the horizontal resolution was diffraction limited to $192.9\pm0.3$ nm, as our PL wavelength peaked around 807.8nm, with a FWHM of 0.6nm. The vertical resolution was increased by a factor of two from 612.0nm to 306.0nm. Therefore, for the 4QW sample, our on-sample resolution was 192.9x306.0nm. This is close to our goal of a completely diffraction-limited system, but we weren't quite able to achieve that in the vertical imaging direction. Figure \ref{4qwimg} is a reconstructed PL image collected from the 4QW sample, while figure \ref{4qwdev} is the image deviation map corresponding to the PL image.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = .8\textwidth]{10QW_devplot.png}
+\caption{ \doublespacing A $\mu$PL }
+\label{4qwimg}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = .8\textwidth]{10QW_devplot.png}
+\caption{ \doublespacing A $\mu$PL }
+\label{4qwdev}
+\end{figure}
 \begin{itemize}
 \item 4QW experiment\\
 \* PL image and raw img, PL deviation slightly larger, but still small estimate, estimate rez, comment on disorder agreement with thry.
 \end{itemize}
+
 \subsection{Disorder in an Interfacial Quantum Dot Structure}
 \begin{itemize}
+Our final disorder measurement was taken for an interfacial quantum dot (IQD) sample. Due to high signal averaging for the MQW samples, we weren't able to see the energy deviations we theoretically should have. Therefore, we took $\mu$PL data on a 5-period, varying well and barrier thickness GaAs/AlGaAs quantum well. Due to the growth process of the IQD sample large well width variations translated into three-dimensional exciton confinement CITE Galan/Rohan, rather than just the one QW confinement dimension. Additionally, due to the larger well-width variations, disorder influences on PL energy were much larger. Figure \ref{iqdmap}. Though the sample was a five-period structure, the increased structural disorder allowed us to see larger variations in PL image as seen in \ref{iqdDev}.
+
+
+
 \item IQD experiment\\
 \* Introduce IQD, talk about disorder in IQD, show raw image, explain difference btwn IQD, MQW, estimate rez, comment on agreement with thry.
 \end{itemize}
+
+
 \section{PLE Results and Analysis}
 \begin{itemize}
 \item PLE curve analysis\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 OCT 2015 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 OCT 2015 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1603,10 +1603,10 @@ centered
 
 ] [5]
 Package epstopdf Info: Source file: <dispcurve.eps>
-(epstopdf)                    date: 2015-10-03 13:43:10
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 486030 bytes
 (epstopdf)             Output file: <dispcurve-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-03 13:47:49
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 30209 bytes
 (epstopdf)             Command: <repstopdf --outfile=dispcurve-eps-converted-to
 .pdf dispcurve.eps>
@@ -1619,10 +1619,10 @@ File: dispcurve-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 31.
 (pdftex.def)             Requested size: 187.89912pt x 136.70683pt.
 Package epstopdf Info: Source file: <GaAsBstruct.eps>
-(epstopdf)                    date: 2015-09-29 08:38:36
+(epstopdf)                    date: 2015-09-27 11:41:40
 (epstopdf)                    size: 2086054 bytes
 (epstopdf)             Output file: <GaAsBstruct-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-29 08:38:36
+(epstopdf)                    date: 2015-09-27 11:43:54
 (epstopdf)                    size: 147503 bytes
 (epstopdf)             Command: <repstopdf --outfile=GaAsBstruct-eps-converted-
 to.pdf GaAsBstruct.eps>
@@ -1678,10 +1678,10 @@ Package pdftex.def Info: Well-eps-converted-to.pdf used on input line 116.
  [10 <./Well-eps-converted-to.pdf>] [11]
 [12]
 Package epstopdf Info: Source file: <SpApprox.eps>
-(epstopdf)                    date: 2015-10-04 14:56:38
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 1346802 bytes
 (epstopdf)             Output file: <SpApprox-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 14:57:43
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 52204 bytes
 (epstopdf)             Command: <repstopdf --outfile=SpApprox-eps-converted-to.
 pdf SpApprox.eps>
@@ -1699,10 +1699,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13]
 Package epstopdf Info: Source file: <disorder.eps>
-(epstopdf)                    date: 2015-10-04 15:15:25
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 2695898 bytes
 (epstopdf)             Output file: <disorder-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 15:19:44
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 132073 bytes
 (epstopdf)             Command: <repstopdf --outfile=disorder-eps-converted-to.
 pdf disorder.eps>
@@ -1720,10 +1720,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14 <./SpApprox-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <rel-thickness.eps>
-(epstopdf)                    date: 2015-10-04 14:56:27
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 415802 bytes
 (epstopdf)             Output file: <rel-thickness-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 15:19:01
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 27325 bytes
 (epstopdf)             Command: <repstopdf --outfile=rel-thickness-eps-converte
 d-to.pdf rel-thickness.eps>
@@ -1747,10 +1747,10 @@ Overfull \vbox (12.08006pt too high) has occurred while \output is active []
 
 [15 <./disorder-eps-converted-to.pdf> <./rel-thickness-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <confocal.eps>
-(epstopdf)                    date: 2015-10-04 16:52:40
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 1869970 bytes
 (epstopdf)             Output file: <confocal-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-04 16:55:49
+(epstopdf)                    date: 2015-10-06 18:16:33
 (epstopdf)                    size: 94389 bytes
 (epstopdf)             Command: <repstopdf --outfile=confocal-eps-converted-to.
 pdf confocal.eps>
@@ -1765,10 +1765,10 @@ Package pdftex.def Info: confocal-eps-converted-to.pdf used on input line 207.
 (pdftex.def)             Requested size: 140.92792pt x 175.98477pt.
  [16] [17 <./confocal-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <confocal2.eps>
-(epstopdf)                    date: 2015-10-04 18:07:11
+(epstopdf)                    date: 2015-10-06 18:18:40
 (epstopdf)                    size: 1912910 bytes
 (epstopdf)             Output file: <confocal2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 22:18:02
 (epstopdf)                    size: 100459 bytes
 (epstopdf)             Command: <repstopdf --outfile=confocal2-eps-converted-to
 .pdf confocal2.eps>
@@ -1789,10 +1789,10 @@ centered
 
 ]
 Package epstopdf Info: Source file: <laser.eps>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 20:05:52
 (epstopdf)                    size: 1303962 bytes
 (epstopdf)             Output file: <laser-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 22:30:58
 (epstopdf)                    size: 16808 bytes
 (epstopdf)             Command: <repstopdf --outfile=laser-eps-converted-to.pdf
  laser.eps>
@@ -1805,10 +1805,10 @@ File: laser-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: laser-eps-converted-to.pdf used on input line 10.
 (pdftex.def)             Requested size: 375.80542pt x 142.67384pt.
 Package epstopdf Info: Source file: <Actuator.eps>
-(epstopdf)                    date: 2015-10-09 23:07:26
+(epstopdf)                    date: 2015-10-09 22:22:00
 (epstopdf)                    size: 1479826 bytes
 (epstopdf)             Output file: <Actuator-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 23:07:26
+(epstopdf)                    date: 2015-10-09 22:22:11
 (epstopdf)                    size: 23605 bytes
 (epstopdf)             Command: <repstopdf --outfile=Actuator-eps-converted-to.
 pdf Actuator.eps>
@@ -1824,10 +1824,10 @@ Package pdftex.def Info: Actuator-eps-converted-to.pdf used on input line 18.
  [21 <./laser-eps-converted-to.pdf>]
 [22 <./Actuator-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <lapp.eps>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 20:50:41
 (epstopdf)                    size: 1554214 bytes
 (epstopdf)             Output file: <lapp-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 22:51:29
 (epstopdf)                    size: 34295 bytes
 (epstopdf)             Command: <repstopdf --outfile=lapp-eps-converted-to.pdf 
 lapp.eps>
@@ -1852,10 +1852,10 @@ LaTeX Warning: Reference `' on page 23 undefined on input line 40.
 
 [23 <./lapp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <lathe.eps>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 21:20:38
 (epstopdf)                    size: 1167050 bytes
 (epstopdf)             Output file: <lathe-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 23:07:27
+(epstopdf)                    date: 2015-10-09 22:59:20
 (epstopdf)                    size: 13556 bytes
 (epstopdf)             Command: <repstopdf --outfile=lathe-eps-converted-to.pdf
  lathe.eps>
@@ -1960,14 +1960,96 @@ Package pdftex.def Info: 10QW_devplot.png used on input line 40.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36 <./PLIMG_10QW.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+
+LaTeX Warning: Reference `0.1' on page 37 undefined on input line 50.
+
+[37 <./10QW_devplot.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
- [37 <./10QW_devplot.png>]) [38] (./thesis-master.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+
+
+LaTeX Warning: Reference `4qwimg' on page 38 undefined on input line 59.
+
+
+LaTeX Warning: Reference `4qwdev' on page 38 undefined on input line 59.
+
+File: 10QW_devplot.png Graphic file (type png)
+<use 10QW_devplot.png>
+Package pdftex.def Info: 10QW_devplot.png used on input line 63.
+(pdftex.def)             Requested size: 375.80542pt x 253.29335pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: 10QW_devplot.png Graphic file (type png)
+<use 10QW_devplot.png>
+Package pdftex.def Info: 10QW_devplot.png used on input line 69.
+(pdftex.def)             Requested size: 375.80542pt x 253.29335pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38] [39]
+
+LaTeX Warning: Reference `iqdmap' on page 40 undefined on input line 80.
+
+
+LaTeX Warning: Reference `iqdDev' on page 40 undefined on input line 80.
+
+
+./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \item I
+            QD experiment\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \item I
+            QD experiment\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \item I
+            QD experiment\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./chapter4.tex:86: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[40]) [41] (./thesis-master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1976,10 +2058,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9363 strings out of 493089
- 168192 string characters out of 6134842
+ 9368 strings out of 493089
+ 168229 string characters out of 6134842
  207483 words of memory out of 5000000
- 12732 multiletter control sequences out of 15000+600000
+ 12737 multiletter control sequences out of 15000+600000
  11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,7n,39p,10389b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1995,10 +2077,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis-master.pdf (49 pages, 4779280 bytes).
+Output written on thesis-master.pdf (52 pages, 4783075 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
+ 596 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
