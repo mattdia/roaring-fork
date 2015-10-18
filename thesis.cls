@@ -375,12 +375,12 @@
 	\renewcommand*{\listfigurename}{\th@ChapHead{FIGURES}}
 	\renewcommand*{\listtablename}{\th@ChapHead{TABLES}}
 	\renewcommand*{\appendixname}{\th@ChapHead{APPENDIX}}
-	\renewcommand*{\bibname}{\th@ChapHead{BIBLIOGRAPHY}}
+	\renewcommand*{\bibname}{\th@ChapHead{REFERENCES}}
 	\renewcommand*{\chaptername}{\th@ChapHead{CHAPTER}}
 	\newcommand*{\chapternameToC}{
 		\normalsize\th@HdFnt CHAPTER\normalfont}
 	\newcommand*{\bibnameToC}{
-		\normalsize\th@HdFnt  BIBLIOGRAPHY\normalfont}
+		\normalsize\th@HdFnt  REFERENCES\normalfont}
 	\newcommand*{\appendixnameToC}{
 		\normalsize\th@HdFnt  APPENDIX\normalfont}
 \else
@@ -388,12 +388,12 @@
 	\renewcommand*{\listfigurename}{\th@ChapHead{Figures}}
 	\renewcommand*{\listtablename}{\th@ChapHead{Tables}}
 	\renewcommand*{\appendixname}{\th@ChapHead{Appendix}}
-	\renewcommand*{\bibname}{\th@ChapHead{Bibliography}}
+	\renewcommand*{\bibname}{\th@ChapHead{References}}
 	\renewcommand*{\chaptername}{\th@ChapHead{Chapter}}
 	\newcommand*{\chapternameToC}{
 		\normalsize\th@HdFnt Chapter\normalfont}
 	\newcommand*{\bibnameToC}{
-		\normalsize\th@HdFnt  Bibliography\normalfont}
+		\normalsize\th@HdFnt  References\normalfont}
 	\newcommand*{\appendixnameToC}{
 		\normalsize\th@HdFnt  Appendix\normalfont}
 \fi

@@ -11,7 +11,7 @@
 \end{figure}
 
 
-\indent From the raw spectrometer images, we found the wavelength corresponding to the maximum PL amplitude at each vertical CCD maximum and read that pixel's PL wavelength and amplitude information. We then compiled that information into either a PL amplitude or PL energy as a function of vertical sample position surface. Effectively, at each lens position, we took a vertical slice of the raw image and stacked that information along the lens translation direction to obtain a 2D image. Figure \ref{slice} shows a representative vertical image slice from the images taken on the 10QW sample. From this, we found a total PL image from the 10QW sample, seen in Figure \ref{total10QW}. The features in the PL image correspond to artifacts on the surface of the QW sample: despite our best efforts, surface imperfections and dust were present on the sample during data runs. However, the fact that we are actually able to produce a PL image reconstruction which shows the imperfections as defined reductions in PL signal indicates that the sample surface was in focus, and we are near the maximum image definition we can expect for the disorder map. 
+\indent From the raw spectrometer images, we found the wavelength corresponding to the maximum PL amplitude at each vertical CCD maximum and read that pixel's PL wavelength and amplitude information. We then compiled that information into either a PL amplitude or PL energy as a function of vertical sample position surface. Effectively, at each lens position, we took a vertical slice of the raw image and stacked that information along the lens translation direction to obtain a 2D image. Figure \ref{slice} shows a representative vertical image slice from the images taken on the 10QW sample. From this, we found a total PL image from the 10QW sample, seen in Figure \ref{total10QW}. The larger structure in the PL image correspond to artifacts on the surface of the QW sample: despite our best efforts, surface imperfections and dust were present on the sample during data runs. However, the fact that we are actually able to produce a PL image reconstruction which shows the imperfections as defined reductions in PL signal indicates that the sample surface was in focus, and we are near the maximum image definition we can expect for the disorder map. 
 
 \begin{figure}[h!]
 \centering
@@ -33,69 +33,93 @@
 \begin{equation}
 \delta E_{i,j} = E_{i,j}-E_{avg}
 \end{equation}
-where $E_{avg}$ is the average emission energy for the whole PL picture, and $i,j$ index horizontal and vertical sample position respectively. Following this, we obtain our $\mu$PL map. However, this map is too noisy to see structure, as CCD intensity fluctuations of roughly 10 counts or 1\% of the total signal will affect which PL peak amplitude, and thus the peak energy at a given sample location location. Therefore, we must take our $\mu$PL energy deviation map and Gaussian smooth the energy deviation values by four to five pixels FWHM depending on the sample. Doing so, we obtain the energy deviation map seen in Figure \ref{devmap10QW}.
+where $E_{avg}$ is the average emission energy for the whole PL picture, and $i,j$ index horizontal and vertical sample position respectively. Following this, we obtain our $\mu$PL map. However, this map is too noisy to see structure, as CCD intensity fluctuations of roughly 10 counts or 1\% of the total signal will affect which PL peak amplitude, and thus the peak energy at a given sample location location. Therefore, we must take our $\mu$PL energy deviation map and Gaussian smooth the energy deviation values by two to five pixels FWHM depending on the sample. Doing so, we obtain the energy deviation map seen in Figure \ref{devmap10QW}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width = .8\textwidth]{10QW_devplot.png}
-\caption{ \doublespacing A $\mu$PL energy deviation image for the 10QW sample. Note the energy deviation we calculate is 0.1meV, peak to peak, at maximum.}
+\caption{ \doublespacing A $\mu$PL energy deviation image for the 10QW sample. Note the energy deviation was found to be 0.1meV, peak to peak, at maximum.}
 \label{devmap10QW}
 \end{figure}
 
 \newpage
 \indent We expected energy deviations as a result of QW width fluctuations to behave according to the following equation:
 \begin{equation}
-\delta E = \frac{h^2 \pi^2}{2 \mu_{HH}}\Big ( \frac{1}{L^* \pm a}- \frac{1}{L^{*^2}} \Big )
+\label{de}
+\delta E = \frac{h^2 \pi^2}{2 \mu_{HH}}\Big ( \frac{1}{(L^* \pm a)^2}- \frac{1}{L^{*^2}} \Big )
 \end{equation}
-where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass CITE Glinka, Santos. We saw energy deviations of about \ref{0.1}meV, which was five times less than expected. This discrepancy was due for the most part to signal averaging within the 10QW sample PL image: the relatively weak PL signal from spots in the wells which deviated from average width was most likely from the first few wells, and not all 10QWs. Additionally, since we looked only at the maximum amplitude PL signal from each point in the sample, due to the random distribution of disorder, the maximum PL energies at each PL image location would tend to be those closer than expected to those for the sample as a whole, as the signal at each location was presumably an average over the QW emission from each well at each imaging location. In other words: the way we took our PL image meant that any disorder deviations we saw would be due to the additive effects of disorder over multiple wells, which means that disorder fluctuations were smaller than expected in the one QW limit.
+where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass \cite{glinka, santos}. We saw energy deviations of about \ref{0.1}meVpp, which was five times less than expected. This discrepancy was due for the most part to signal averaging within the 10QW sample PL image: the relatively weak PL signal from spots in the wells which deviated from average width was most likely from the first few wells, and not all 10QWs. Additionally, since we looked only at the maximum amplitude PL signal from each point in the sample, due to the random distribution of disorder, the maximum PL energies at each PL image location would tend to be close to the average PL energy for the whole sample, as the signal at each location was presumably an average over the QW emission from each well at each imaging location. In other words: the way we took our PL image meant that any disorder deviations we saw would be due to the additive effects of disorder over multiple wells, meaning that disorder fluctuations were smaller than expected in the one QW limit. Using Equation 4.2, we expect energy deviations of roughly 0.5meV for disorder variations of one crystal monolayer. Anything less than this corresponds to no measured well width variations whatsoever.
 
-\begin{itemize}
-\item 10QW experiments\\
-\* PL image and raw img, PL deviation small. Estimate smoothing, estimate resolution, comment on disorder agreement with thry.
-\end{itemize}
 
 
 \subsection{Disorder in a Four Quantum Well Structure}
-Because the 10QW PL energy deviations due disorder was fairly small, we decided to take $\mu$PL data on a four-period 10nm GaAs QW with 10nm AlGaAs barriers. As 4QW sample had fewer wells, but each was identical in width to the 10QW sample, we expected to see larger disorder energy deviations because there would be fewer wells over which the signal would be averaged. Additionally, we inserted a telescope into the PL imaging path, increasing our on-sample resolution. In the horizontal direction, the resolution limit was no longer set by the lens translation. Rather, since we were able to magnify our image by 2x, the horizontal resolution was diffraction limited to $192.9\pm0.3$ nm, as our PL wavelength peaked around 807.8nm, with a FWHM of 0.6nm. The vertical resolution was increased by a factor of two from 612.0nm to 306.0nm. Therefore, for the 4QW sample, our on-sample resolution was 192.9x306.0nm. This is close to our goal of a completely diffraction-limited system, but we weren't quite able to achieve that in the vertical imaging direction. Figure \ref{4qwimg} is a reconstructed PL image collected from the 4QW sample, while figure \ref{4qwdev} is the image deviation map corresponding to the PL image.
+Because the 10QW PL energy deviations due disorder was fairly small, we decided to take $\mu$PL data on a four-period 10nm GaAs QW with 10nm AlGaAs barriers. As 4QW sample had fewer wells, but each was identical in width to the 10QW sample, we expected to see larger disorder energy deviations because there would be fewer wells over which the signal would be averaged. Additionally, we inserted a telescope into the PL imaging path, increasing our on-sample resolution. In the horizontal direction, the resolution limit was no longer set by the lens translation. Rather, since we were able to magnify our image by 2x, the horizontal resolution was diffraction limited to $192.9\pm0.3$ nm, as our PL wavelength peaked around 807.8nm, with a FWHM of 0.6nm. The vertical resolution was increased by a factor of two from 612.0nm to 306.0nm. Therefore, for the 4QW sample, our on-sample resolution was theoretically 192.9x306.0nm. This is close to our goal of a completely diffraction-limited system, but we weren't quite able to achieve that in the vertical imaging direction. However, due to high image noise, we applied a Gaussian blur to our energy maps to recover their underlying structure. Therefore, though our PL image had a resolution of 192.9x306.0, our energy 4QW map was limited to a resolution of 252x400nm. Figure \ref{4qwimg} is a reconstructed PL image collected from the 4QW sample, while figure \ref{4qwdev} is the image deviation map corresponding to the PL image. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = .8\textwidth]{10QW_devplot.png}
-\caption{ \doublespacing A $\mu$PL }
+\includegraphics[width = .7\textwidth]{4QW_Img.png}
+\caption{ \doublespacing A reconstructed image of the PL amplitude of the 4QW sample.}
 \label{4qwimg}
 \end{figure}
 \begin{figure}[h!]
 \centering
-\includegraphics[width = .8\textwidth]{10QW_devplot.png}
-\caption{ \doublespacing A $\mu$PL }
+\includegraphics[width = .8\textwidth]{4QW_devplot.png}
+\caption{ \doublespacing An energy deviation map for the 4QW sample.}
 \label{4qwdev}
 \end{figure}
-\begin{itemize}
-\item 4QW experiment\\
-\* PL image and raw img, PL deviation slightly larger, but still small estimate, estimate rez, comment on disorder agreement with thry.
-\end{itemize}
+
+
+\indent With the periodic 4QW structure, we were running into the same problems we had with the 10QW sample: due to spectral averaging over multiple quantum wells, we saw energy deviations corresponding to well width variations of less than a monolayer. Though the energy deviations from disorder for each single quantum well were presumably larger than those we saw, we weren't able to resolve the disorder variations due to a single quantum well. 
 
 \subsection{Disorder in an Interfacial Quantum Dot Structure}
-\begin{itemize}
-Our final disorder measurement was taken for an interfacial quantum dot (IQD) sample. Due to high signal averaging for the MQW samples, we weren't able to see the energy deviations we theoretically should have. Therefore, we took $\mu$PL data on a 5-period, varying well and barrier thickness GaAs/AlGaAs quantum well. Due to the growth process of the IQD sample large well width variations translated into three-dimensional exciton confinement CITE Galan/Rohan, rather than just the one QW confinement dimension. Additionally, due to the larger well-width variations, disorder influences on PL energy were much larger. Figure \ref{iqdmap}. Though the sample was a five-period structure, the increased structural disorder allowed us to see larger variations in PL image as seen in \ref{iqdDev}.
+\indent Our final disorder measurement was taken on an interfacial quantum dot (IQD) sample. Due to high signal averaging for the MQW samples, we weren't able to see the energy deviations we theoretically should have. Subsequently, we took $\mu$PL data on a 5-period, varying well and barrier thickness GaAs/AlGaAs quantum well. Due to the growth process of the IQD sample, large well width variations translated into three-dimensional exciton confinement \cite{galanthesis, fox}, rather than just the one QW confinement dimension. Additionally, due to the larger well-width variations, disorder influences on PL energy were much larger. This is clear in Figure \ref{iqdmap}. Though the sample was a five-period structure, the increased structural disorder allowed us to see larger variations in PL energy relative to the 10QW and 4QW samples, as seen in \ref{iqdDev}. Additionally, due to the smaller well width for some of the IQD wells relative to the other two QW samples, our original light source was slightly unreliable at the shorter wavelengths necessary to probe IQD disorder: as we tuned the Ti:Sapph laser below 750nm, it would occasionally enter multi-mode operation. When this occurred, the laser would operate at diminished and unstable power. We therefore used a green laser, centered at 532.15nm to excite the IQD sample.
 
 
-
-\item IQD experiment\\
-\* Introduce IQD, talk about disorder in IQD, show raw image, explain difference btwn IQD, MQW, estimate rez, comment on agreement with thry.
-\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width = .8\textwidth]{iqd.png}
+\caption{ \doublespacing An energy deviation map for the IQD sample. The energy deviations in the IQD sample are much larger than those measured in the 4QW and 10QW samples, even though the IQD structure is periodic and suffers from similar spectral averaging the other two samples do.}
+\label{iqdDev}
+\end{figure}
+\indent From these measurements, we were able to calculate a maximum PL energy deviation of 0.74meV, peak to peak. This value was much larger than the value found for both the 10QW and 4QW structures. Therefore, we were able to measure well width variations greater than one monolayer in the IQD sample. Though there was still spectral averaging due to the fact that the IQD sample was five wells thick, this larger variation was due to larger width fluctuations in the IQD wells and the diversity of well widths present in the IQD sample by design.
 
 
 \section{PLE Results and Analysis}
-\begin{itemize}
-\item PLE curve analysis\\
-show stock PLE curve, show slices, say what they mean, show peaks, say what peaks mean
-\item PLE anti-stokes.
-show anti-stokes t dep. curves\\
-show anti-stokes pow-dep curves, talk about linearity or no, comment on CCD bs., \\
-compare with thry, talk about mechanisms. well width dep
-\item PLE stokes peak\\
-show stokes pow-dep curves, talk about linearity or no, comment on CCD bs., \\
-compare with thry, talk about well width dep, say mechanisms understood(?) point to lit chris and I found
+\indent For our asymmetric double quantum well samples, we had InGaAs wells of 9nm and 10nm with a GaAs barrier between them. We had three samples of varying barrier thickness, b, with $b=5,10,$ or $30$nm. For each sample, we excited with our CW laser, and collected PL from the sample. We then stepped our laser excitation wavelength and monitored the PL spectra as a function of CW excitation wavelength. We found in each case that there was incoherent Stokes- and anti-Stokes coupling of excitons between wells. Figure \ref{peakscheme} shows a close-up of the coupling peaks. 
 
-\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width = .8\textwidth]{crosspks.png}
+\caption{ \doublespacing An example set of PLE data taken on AQW samples. The grey circle corresponds to a coupling peak between wells in the Stokes direction: the narrow well absorbs the laser excitation, while the wide wells emit a portion of the absorbed energy. The red circle corresponds to a coupling peak in the anti-Stokes direction: the wide well absorbs and the narrow well emits a portion of the excitation energy. The diagonal white trace is the laser scatter.}
+\label{peakscheme}
+\end{figure}
+
+\indent Traditionally, PLE is done by monitoring emission intensity at a single wavelength \cite{borri}, but with our experiment, we are able to measure a full spectrum at each excitation wavelength. This ability means that our PLE spectra are more rich, as they provide simultaneous information of both narrow and wide well emission. Taking vertical slices along the emission peaks from the narrow and wide wells, we obtain information on exciton population by monitoring the emission amplitudes. We can then plot PLE emission amplitude as a function of excitation wavelength and monitor the strength of the Stokes- and anti-Stokes cross peaks as well as other peaks in emission corresponding to exciton ground and excited state emission. Figure \ref{traces} is an assembly of vertical PLE slices for three PLE spectra recorded at 10K. Note: as the barrier width decreases, the strength of the Stokes- and anti-Stokes peaks increases. 
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{vertprof.png}
+\caption{ \doublespacing A set of three PLE vertical profiles taken at the wavelength of peak emission intensity for a) the 30nm, b) the 10nm, and c) the 5nm barrier width AQW. Note: the narrow well emission intensity was much lower than the wide well emission intensity, and was scaled up for graphical comparison.} 
+\label{traces}
+\end{figure}
+
+\indent Figure \ref{traces} shows increased coupling between wells as barrier width decreases: both the red dashed trace peak around 1.46eV and the blue trace peak around 1.47eV increase as barrier width decreases. We measure, then, what we expect qualitatively: as AQWs get closer together, the incoherent coupling between excitons in each well increases. However, we were initially surprised that we measured coupling in the anti-Stokes direction. Intuitively, one would expect that an exciton excited in the wider well, since it exists at a slightly lower energy, would not be able to emit from a state in the narrower well. We suspected, therefore, that coupling in the anti-Stokes direction would be a temperature mediated process. As a result, we took PLE data on all three barrier sizes and monitored the cross-peak intensity as a function of temperature. Figure \ref{xpkintensity} shows that the coupling between wells seems to be a temperature mediated process. Others have seen this temperature-dependence of coupling in the anti-Stokes direction, \cite{borri} but have failed to provide a model that accounts for the intensity of the coupling peaks as a function of temperature and of barrier width.
+
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{crosspeakT.png}
+\caption{ \doublespacing Temperature dependance for the PLE coupling peaks for barrier width of a) 30nm, b) 10nm, and c) 5nm. The intensity of coupling between wells seems to peak at some low temperature, and then decrease as sample temperature increases.} 
+\label{xpkintensity}
+\end{figure}
+%\begin{itemize}
+%\item PLE curve analysis\\
+%show stock PLE curve, show slices, say what they mean, show peaks, say what peaks mean
+%\item PLE anti-Stokes.
+%show anti-Stokes t dep. curves\\
+%show anti-Stokes pow-dep curves, talk about linearity or no, comment on CCD bs., \\
+%compare with thry, talk about mechanisms. well width dep
+%\item PLE Stokes peak\\
+%show Stokes pow-dep curves, talk about linearity or no, comment on CCD bs., \\
+%compare with thry, talk about well width dep, say mechanisms understood(?) point to lit chris and I found
+%\end{itemize}

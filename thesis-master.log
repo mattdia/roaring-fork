@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 OCT 2015 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 OCT 2015 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1347,7 +1347,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:5: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.5 ...rsion curve in figure 2.1 CITE Davies.}}{7}
+l.5 ...on curve in figure 2.1 \cite {davies}.}}{7}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1380,7 +1380,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:8: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.8 ...itable for the work completed herein.}}{14}
+l.8 ...itable for the work completed herein.}}{13}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1391,7 +1391,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:9: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.9 ...oss. Taken from CITE Yoshita Terrace.}}{15}
+l.9 ... Adapted from \cite {yoshitaterrace}.}}{15}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1416,7 +1416,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:11: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.11 ...d then collimated by the two lenses.}}{17}
+l.11 ...d then collimated by the two lenses.}}{18}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1427,7 +1427,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:12: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.12 ...n$ and lowers the diffraction limit.}}{18}
+l.12 ...n$ and lowers the diffraction limit.}}{19}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1438,7 +1438,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:14: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.14 ...smooth rotation in either direction.}}{21}
+l.14 ...smooth rotation in either direction.}}{22}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1449,7 +1449,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:15: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.15 ...smooth rotation in either direction.}}{22}
+l.15 ...smooth rotation in either direction.}}{23}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1460,7 +1460,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:16: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.16 ...pheres to an optical quality finish.}}{23}
+l.16 ...pheres to an optical quality finish.}}{24}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1471,7 +1471,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:17: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.17 ...htly to randomize the SIL polishing.}}{24}
+l.17 ...htly to randomize the SIL polishing.}}{25}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1482,7 +1482,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:18: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.18 ...he red beam is the excitation laser.}}{27}
+l.18 ...at optics and eventually the sample.}}{27}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1494,7 +1494,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:19: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.19 ...ge as it translates across the slit.}}{28}
+l.19 ...he red beam is the excitation laser.}}{28}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1505,7 +1505,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:20: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.20 ... of data collection steps to be run.}}{30}
+l.20 ...ge as it translates across the slit.}}{29}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1516,7 +1516,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:21: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.21 ...o control the excitation wavelength.}}{31}
+l.21 ... of data collection steps to be run.}}{31}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1527,7 +1527,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:22: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.22 ... of data collection steps to be run.}}{32}
+l.22 ...o control the excitation wavelength.}}{32}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1535,10 +1535,10 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./thesis-master.lof:24: Missing control sequence inserted.
+./thesis-master.lof:23: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.24 ...le position for each vertical slice.}}{34}
+l.23 ... of data collection steps to be run.}}{33}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1549,7 +1549,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:25: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.25 ...of either PL amplitude or PL energy.}}{35}
+l.25 ...le position for each vertical slice.}}{35}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1560,7 +1560,7 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:26: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.26 ...ponding to the PL amplitude maximum.}}{36}
+l.26 ...of either PL amplitude or PL energy.}}{36}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1572,7 +1572,84 @@ careful; see exercise 27.2 in The TeXbook.
 ./thesis-master.lof:27: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.27 ...is 0.1meV, peak to peak, at maximum.}}{37}
+l.27 ...ponding to the PL amplitude maximum.}}{37}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:28: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.28 ...be 0.1meV, peak to peak, at maximum.}}{38}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:29: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.29 ... the PL amplitude of the 4QW sample.}}{40}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:30: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.30 ...gy deviation map for the 4QW sample.}}{40}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:31: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.31 ... averaging the other two samples do.}}{42}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:32: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.32 ...al white trace is the laser scatter.}}{44}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:33: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.33 ... scaled up for graphical comparison.}}{45}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./thesis-master.lof:34: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.34 ...ase as sample temperature increases.}}{47}
                                                   
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -1590,7 +1667,7 @@ careful; see exercise 27.2 in The TeXbook.
 -------------------Beginning Body----------------------
 
 
-[11] (./chapter1v3.tex
+[11] [12] (./chapter1v3.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
 [1
@@ -1603,33 +1680,33 @@ centered
 
 ] [5]
 Package epstopdf Info: Source file: <dispcurve.eps>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-03 12:43:10
 (epstopdf)                    size: 486030 bytes
 (epstopdf)             Output file: <dispcurve-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-03 12:47:49
 (epstopdf)                    size: 30209 bytes
 (epstopdf)             Command: <repstopdf --outfile=dispcurve-eps-converted-to
 .pdf dispcurve.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
- <dispcurve-eps-converted-to.pdf, id=63, 324.21124pt x 235.88126pt>
+ <dispcurve-eps-converted-to.pdf, id=65, 324.21124pt x 235.88126pt>
 File: dispcurve-eps-converted-to.pdf Graphic file (type pdf)
 
 <use dispcurve-eps-converted-to.pdf>
 Package pdftex.def Info: dispcurve-eps-converted-to.pdf used on input line 31.
 (pdftex.def)             Requested size: 187.89912pt x 136.70683pt.
 Package epstopdf Info: Source file: <GaAsBstruct.eps>
-(epstopdf)                    date: 2015-09-27 11:41:40
+(epstopdf)                    date: 2015-09-29 07:38:36
 (epstopdf)                    size: 2086054 bytes
 (epstopdf)             Output file: <GaAsBstruct-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-27 11:43:54
+(epstopdf)                    date: 2015-09-29 07:38:36
 (epstopdf)                    size: 147503 bytes
 (epstopdf)             Command: <repstopdf --outfile=GaAsBstruct-eps-converted-
 to.pdf GaAsBstruct.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 
-<GaAsBstruct-eps-converted-to.pdf, id=64, 493.845pt x 455.7025pt>
+<GaAsBstruct-eps-converted-to.pdf, id=66, 493.845pt x 455.7025pt>
 File: GaAsBstruct-eps-converted-to.pdf Graphic file (type pdf)
 
 <use GaAsBstruct-eps-converted-to.pdf>
@@ -1642,16 +1719,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./dispcurve-eps-converted-to.pdf>] [7 <./GaAsBstruct-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <infpotential.eps>
-(epstopdf)                    date: 2015-09-26 19:49:58
+(epstopdf)                    date: 2015-09-26 18:49:58
 (epstopdf)                    size: 1000322 bytes
 (epstopdf)             Output file: <infpotential-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-26 19:50:04
+(epstopdf)                    date: 2015-09-26 18:50:04
 (epstopdf)                    size: 10474 bytes
 (epstopdf)             Command: <repstopdf --outfile=infpotential-eps-converted
 -to.pdf infpotential.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<infpotential-eps-converted-to.pdf, id=86, 164.615pt x 114.4275pt>
+<infpotential-eps-converted-to.pdf, id=89, 164.615pt x 114.4275pt>
 File: infpotential-eps-converted-to.pdf Graphic file (type pdf)
 
 <use infpotential-eps-converted-to.pdf>
@@ -1660,16 +1737,16 @@ Package pdftex.def Info: infpotential-eps-converted-to.pdf used on input line 6
 (pdftex.def)             Requested size: 281.85585pt x 195.94891pt.
  [8 <./infpotential-eps-converted-to.pdf>] [9]
 Package epstopdf Info: Source file: <Well.eps>
-(epstopdf)                    date: 2015-09-12 11:35:50
+(epstopdf)                    date: 2015-09-12 10:35:50
 (epstopdf)                    size: 1563274 bytes
 (epstopdf)             Output file: <Well-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 11:35:50
+(epstopdf)                    date: 2015-09-12 10:35:50
 (epstopdf)                    size: 92392 bytes
 (epstopdf)             Command: <repstopdf --outfile=Well-eps-converted-to.pdf 
 Well.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
- <Well-eps-converted-to.pdf, id=100, 148.555pt x 96.36pt>
+ <Well-eps-converted-to.pdf, id=103, 148.555pt x 96.36pt>
 File: Well-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Well-eps-converted-to.pdf>
@@ -1678,37 +1755,34 @@ Package pdftex.def Info: Well-eps-converted-to.pdf used on input line 116.
  [10 <./Well-eps-converted-to.pdf>] [11]
 [12]
 Package epstopdf Info: Source file: <SpApprox.eps>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 13:56:38
 (epstopdf)                    size: 1346802 bytes
 (epstopdf)             Output file: <SpApprox-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 13:57:43
 (epstopdf)                    size: 52204 bytes
 (epstopdf)             Command: <repstopdf --outfile=SpApprox-eps-converted-to.
 pdf SpApprox.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
- <SpApprox-eps-converted-to.pdf, id=118, 249.93375pt x 90.3375pt>
+ <SpApprox-eps-converted-to.pdf, id=121, 249.93375pt x 90.3375pt>
 File: SpApprox-eps-converted-to.pdf Graphic file (type pdf)
 
 <use SpApprox-eps-converted-to.pdf>
 Package pdftex.def Info: SpApprox-eps-converted-to.pdf used on input line 168.
 (pdftex.def)             Requested size: 328.82706pt x 118.8654pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13]
+ [13 <./SpApprox-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <disorder.eps>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 14:15:25
 (epstopdf)                    size: 2695898 bytes
 (epstopdf)             Output file: <disorder-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 14:19:44
 (epstopdf)                    size: 132073 bytes
 (epstopdf)             Command: <repstopdf --outfile=disorder-eps-converted-to.
 pdf disorder.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
- <disorder-eps-converted-to.pdf, id=122, 448.67625pt x 481.8pt>
+
+<disorder-eps-converted-to.pdf, id=153, 448.67625pt x 481.8pt>
 File: disorder-eps-converted-to.pdf Graphic file (type pdf)
 
 <use disorder-eps-converted-to.pdf>
@@ -1718,19 +1792,18 @@ Package pdftex.def Info: disorder-eps-converted-to.pdf used on input line 180.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./SpApprox-eps-converted-to.pdf>]
+[14]
 Package epstopdf Info: Source file: <rel-thickness.eps>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 13:56:27
 (epstopdf)                    size: 415802 bytes
 (epstopdf)             Output file: <rel-thickness-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:16:33
+(epstopdf)                    date: 2015-10-04 14:19:01
 (epstopdf)                    size: 27325 bytes
 (epstopdf)             Command: <repstopdf --outfile=rel-thickness-eps-converte
 d-to.pdf rel-thickness.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
-
-<rel-thickness-eps-converted-to.pdf, id=154, 346.29375pt x 90.3375pt>
+ <rel-thickness-eps-converted-to.pdf, id=157, 346.29375pt x 90.3375pt>
 File: rel-thickness-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rel-thickness-eps-converted-to.pdf>
@@ -1742,181 +1815,156 @@ Package pdftex.def Info: rel-thickness-eps-converted-to.pdf used on input line
 LaTeX Warning: Text page 15 contains only floats.
 
 
-Overfull \vbox (12.08006pt too high) has occurred while \output is active []
+Overfull \vbox (15.08006pt too high) has occurred while \output is active []
 
 
 [15 <./disorder-eps-converted-to.pdf> <./rel-thickness-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <confocal.eps>
-(epstopdf)                    date: 2015-10-06 18:16:33
-(epstopdf)                    size: 1869970 bytes
-(epstopdf)             Output file: <confocal-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:16:33
-(epstopdf)                    size: 94389 bytes
-(epstopdf)             Command: <repstopdf --outfile=confocal-eps-converted-to.
-pdf confocal.eps>
-(epstopdf)             \includegraphics on input line 207.
-Package epstopdf Info: Output file is already uptodate.
+[16] <confocal1.png, id=185, 334.24875pt x 409.53pt>
+File: confocal1.png Graphic file (type png)
+ <use confocal1.png>
+Package pdftex.def Info: confocal1.png used on input line 212.
+(pdftex.def)             Requested size: 140.92792pt x 172.67006pt.
 
-<confocal-eps-converted-to.pdf, id=179, 201.75375pt x 251.94125pt>
-File: confocal-eps-converted-to.pdf Graphic file (type pdf)
 
-<use confocal-eps-converted-to.pdf>
-Package pdftex.def Info: confocal-eps-converted-to.pdf used on input line 207.
-(pdftex.def)             Requested size: 140.92792pt x 175.98477pt.
- [16] [17 <./confocal-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <confocal2.eps>
-(epstopdf)                    date: 2015-10-06 18:18:40
-(epstopdf)                    size: 1912910 bytes
-(epstopdf)             Output file: <confocal2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 22:18:02
-(epstopdf)                    size: 100459 bytes
-(epstopdf)             Command: <repstopdf --outfile=confocal2-eps-converted-to
-.pdf confocal2.eps>
-(epstopdf)             \includegraphics on input line 223.
-Package epstopdf Info: Output file is already uptodate.
-<confocal2-eps-converted-to.pdf, id=197, 193.72375pt x 243.91125pt>
-File: confocal2-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use confocal2-eps-converted-to.pdf>
-Package pdftex.def Info: confocal2-eps-converted-to.pdf used on input line 223.
+[17] [18 <./confocal1.png>] <confocal2.png, id=194, 344.28625pt x 444.66125pt>
+File: confocal2.png Graphic file (type png)
 
-(pdftex.def)             Requested size: 140.92792pt x 177.43962pt.
- [18 <./confocal2-eps-converted-to.pdf>])
-(./chapter3.tex [19]
+<use confocal2.png>
+Package pdftex.def Info: confocal2.png used on input line 228.
+(pdftex.def)             Requested size: 140.92792pt x 182.01375pt.
+) (./chapter3.tex [19 <./confocal2.png>] [20]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-[20
+[21
 
 ]
 Package epstopdf Info: Source file: <laser.eps>
-(epstopdf)                    date: 2015-10-09 20:05:52
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 1303962 bytes
 (epstopdf)             Output file: <laser-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 22:30:58
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 16808 bytes
 (epstopdf)             Command: <repstopdf --outfile=laser-eps-converted-to.pdf
  laser.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
- <laser-eps-converted-to.pdf, id=220, 433.62pt x 164.615pt>
+ <laser-eps-converted-to.pdf, id=206, 433.62pt x 164.615pt>
 File: laser-eps-converted-to.pdf Graphic file (type pdf)
 
 <use laser-eps-converted-to.pdf>
 Package pdftex.def Info: laser-eps-converted-to.pdf used on input line 10.
 (pdftex.def)             Requested size: 375.80542pt x 142.67384pt.
 Package epstopdf Info: Source file: <Actuator.eps>
-(epstopdf)                    date: 2015-10-09 22:22:00
+(epstopdf)                    date: 2015-10-09 22:07:26
 (epstopdf)                    size: 1479826 bytes
 (epstopdf)             Output file: <Actuator-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 22:22:11
+(epstopdf)                    date: 2015-10-09 22:07:26
 (epstopdf)                    size: 23605 bytes
 (epstopdf)             Command: <repstopdf --outfile=Actuator-eps-converted-to.
 pdf Actuator.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<Actuator-eps-converted-to.pdf, id=221, 283.0575pt x 477.785pt>
+<Actuator-eps-converted-to.pdf, id=207, 283.0575pt x 477.785pt>
 File: Actuator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Actuator-eps-converted-to.pdf>
 Package pdftex.def Info: Actuator-eps-converted-to.pdf used on input line 18.
 (pdftex.def)             Requested size: 164.4171pt x 277.53104pt.
- [21 <./laser-eps-converted-to.pdf>]
-[22 <./Actuator-eps-converted-to.pdf>]
+ [22 <./laser-eps-converted-to.pdf>]
+[23 <./Actuator-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <lapp.eps>
-(epstopdf)                    date: 2015-10-09 20:50:41
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 1554214 bytes
 (epstopdf)             Output file: <lapp-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 22:51:29
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 34295 bytes
 (epstopdf)             Command: <repstopdf --outfile=lapp-eps-converted-to.pdf 
 lapp.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<lapp-eps-converted-to.pdf, id=242, 358.33875pt x 361.35pt>
+<lapp-eps-converted-to.pdf, id=229, 358.33875pt x 361.35pt>
 File: lapp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use lapp-eps-converted-to.pdf>
 Package pdftex.def Info: lapp-eps-converted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 140.92792pt x 142.11139pt.
-
-
-LaTeX Warning: Reference `' on page 23 undefined on input line 40.
-
-
-LaTeX Warning: Reference `' on page 23 undefined on input line 40.
-
-
-LaTeX Warning: Reference `' on page 23 undefined on input line 40.
-
-[23 <./lapp-eps-converted-to.pdf>]
+ [24 <./lapp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <lathe.eps>
-(epstopdf)                    date: 2015-10-09 21:20:38
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 1167050 bytes
 (epstopdf)             Output file: <lathe-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-09 22:59:20
+(epstopdf)                    date: 2015-10-09 22:07:27
 (epstopdf)                    size: 13556 bytes
 (epstopdf)             Command: <repstopdf --outfile=lathe-eps-converted-to.pdf
  lathe.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<lathe-eps-converted-to.pdf, id=250, 223.83624pt x 68.255pt>
+<lathe-eps-converted-to.pdf, id=237, 223.83624pt x 68.255pt>
 File: lathe-eps-converted-to.pdf Graphic file (type pdf)
 
 <use lathe-eps-converted-to.pdf>
 Package pdftex.def Info: lathe-eps-converted-to.pdf used on input line 44.
 (pdftex.def)             Requested size: 375.80542pt x 114.6072pt.
 
+<cryostatopt.png, id=238, 636.3775pt x 417.56pt>
+File: cryostatopt.png Graphic file (type png)
+ <use cryostatopt.png>
+Package pdftex.def Info: cryostatopt.png used on input line 53.
+(pdftex.def)             Requested size: 375.80542pt x 246.58125pt.
+ [25 <./lathe-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `mount' on page 24 undefined on input line 50.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24 <./lathe-eps-converted-to.pdf>] [25]
+[26]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./upl.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<upl.pdf, id=264, 794.97pt x 614.295pt>
+<upl.pdf, id=253, 794.97pt x 614.295pt>
 File: upl.pdf Graphic file (type pdf)
  <use upl.pdf>
-Package pdftex.def Info: upl.pdf used on input line 57.
+Package pdftex.def Info: upl.pdf used on input line 63.
 (pdftex.def)             Requested size: 469.75499pt x 363.00267pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SpecSlit.png, id=265, 263.5446pt x 324.7332pt>
+<SpecSlit.png, id=254, 263.5446pt x 324.7332pt>
 File: SpecSlit.png Graphic file (type png)
  <use SpecSlit.png>
-Package pdftex.def Info: SpecSlit.png used on input line 63.
+Package pdftex.def Info: SpecSlit.png used on input line 69.
 (pdftex.def)             Requested size: 140.92792pt x 173.65373pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26] [27 <./upl.pdf>] [28 <./SpecSlit.png (PNG copy)>]
-<softflow.png, id=501, 737.154pt x 168.63pt>
+[27 <./cryostatopt.png>] [28 <./upl.pdf>] [29 <./SpecSlit.png (PNG copy)>]
+<softflow.png, id=490, 737.154pt x 168.63pt>
 File: softflow.png Graphic file (type png)
  <use softflow.png>
-Package pdftex.def Info: softflow.png used on input line 84.
+Package pdftex.def Info: softflow.png used on input line 90.
 (pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
- [29] [30 <./softflow.png (PNG copy)>] <PLE.png, id=508, 607.3089pt x 322.3242p
+ [30] [31 <./softflow.png (PNG copy)>] <PLE.png, id=498, 607.3089pt x 322.3242p
 t>
 File: PLE.png Graphic file (type png)
 
 <use PLE.png>
-Package pdftex.def Info: PLE.png used on input line 95.
+Package pdftex.def Info: PLE.png used on input line 101.
 (pdftex.def)             Requested size: 469.75499pt x 249.3265pt.
- [31 <./PLE.png>] <pleSoftflow.png, id=514, 737.154pt x 168.63pt>
+ [32 <./PLE.png>] <pleSoftflow.png, id=503, 737.154pt x 168.63pt>
 File: pleSoftflow.png Graphic file (type png)
 
 <use pleSoftflow.png>
-Package pdftex.def Info: pleSoftflow.png used on input line 105.
+Package pdftex.def Info: pleSoftflow.png used on input line 111.
 (pdftex.def)             Requested size: 469.75499pt x 107.46223pt.
-) (./chapter4.tex [32 <./pleSoftflow.png>]
+) (./chapter4.tex [33 <./pleSoftflow.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-<RAWCCDIMG.png, id=520, 722.7pt x 487.0998pt>
+<RAWCCDIMG.png, id=508, 722.7pt x 487.0998pt>
 File: RAWCCDIMG.png Graphic file (type png)
  <use RAWCCDIMG.png>
 Package pdftex.def Info: RAWCCDIMG.png used on input line 8.
@@ -1926,11 +1974,11 @@ Package pdftex.def Info: RAWCCDIMG.png used on input line 8.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `total10QW' on page 33 undefined on input line 14.
+LaTeX Warning: Reference `total10QW' on page 34 undefined on input line 14.
 
-[33
+[34
 
-] <RawCCDIMGvertslce.png, id=524, 722.7pt x 486.8589pt>
+] <RawCCDIMGvertslce.png, id=512, 722.7pt x 486.8589pt>
 File: RawCCDIMGvertslce.png Graphic file (type png)
 
 <use RawCCDIMGvertslce.png>
@@ -1940,7 +1988,7 @@ Package pdftex.def Info: RawCCDIMGvertslce.png used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PLIMG_10QW.png, id=525, 722.7pt x 487.0998pt>
+<PLIMG_10QW.png, id=513, 722.7pt x 487.0998pt>
 File: PLIMG_10QW.png Graphic file (type png)
  <use PLIMG_10QW.png>
 Package pdftex.def Info: PLIMG_10QW.png used on input line 24.
@@ -1949,8 +1997,8 @@ Package pdftex.def Info: PLIMG_10QW.png used on input line 24.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./RAWCCDIMG.png>] [35 <./RawCCDIMGvertslce.png (PNG copy)>]
-<10QW_devplot.png, id=533, 722.7pt x 487.0998pt>
+[35 <./RAWCCDIMG.png>] [36 <./RawCCDIMGvertslce.png (PNG copy)>]
+<10QW_devplot.png, id=521, 722.7pt x 487.0998pt>
 File: 10QW_devplot.png Graphic file (type png)
  <use 10QW_devplot.png>
 Package pdftex.def Info: 10QW_devplot.png used on input line 40.
@@ -1959,97 +2007,68 @@ Package pdftex.def Info: 10QW_devplot.png used on input line 40.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36 <./PLIMG_10QW.png>]
+[37 <./PLIMG_10QW.png>]
 
-LaTeX Warning: Reference `0.1' on page 37 undefined on input line 50.
+LaTeX Warning: Reference `0.1' on page 38 undefined on input line 51.
 
-[37 <./10QW_devplot.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+[38 <./10QW_devplot.png>] <4QW_Img.png, id=531, 722.7pt x 489.027pt>
+File: 4QW_Img.png Graphic file (type png)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+<use 4QW_Img.png>
+Package pdftex.def Info: 4QW_Img.png used on input line 60.
+(pdftex.def)             Requested size: 328.82706pt x 222.50761pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<4QW_devplot.png, id=532, 722.7pt x 546.3612pt>
+File: 4QW_devplot.png Graphic file (type png)
+ <use 4QW_devplot.png>
+Package pdftex.def Info: 4QW_devplot.png used on input line 66.
+(pdftex.def)             Requested size: 375.80542pt x 284.10945pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39] [40 <./4QW_Img.png> <./4QW_devplot.png>]
+
+LaTeX Warning: Reference `iqdmap' on page 41 undefined on input line 75.
+
+<iqd.png, id=541, 758.835pt x 503.9628pt>
+File: iqd.png Graphic file (type png)
+ <use iqd.png>
+Package pdftex.def Info: iqd.png used on input line 80.
+(pdftex.def)             Requested size: 375.80542pt x 249.58923pt.
+ [41] [42 <./iqd.png>]
+<crosspks.png, id=549, 582.175pt x 439.6425pt>
+File: crosspks.png Graphic file (type png)
+ <use crosspks.png>
+Package pdftex.def Info: crosspks.png used on input line 92.
+(pdftex.def)             Requested size: 375.80542pt x 283.80537pt.
+
+<vertprof.png, id=550, 632.3625pt x 579.16376pt>
+File: vertprof.png Graphic file (type png)
+ <use vertprof.png>
+Package pdftex.def Info: vertprof.png used on input line 101.
+(pdftex.def)             Requested size: 469.75499pt x 430.24472pt.
+ [43]
+[44 <./crosspks.png>] [45 <./vertprof.png>]
+<crosspeakT.png, id=563, 972.63374pt x 403.5075pt>
+File: crosspeakT.png Graphic file (type png)
+ <use crosspeakT.png>
+Package pdftex.def Info: crosspeakT.png used on input line 111.
+(pdftex.def)             Requested size: 469.75499pt x 194.88202pt.
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(./chapter5.tex [46] [47 <./crosspeakT.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
+centered
+[48
 
+]) (./thesis-master.bbl [49]
+centered
+[50
 
-LaTeX Warning: Reference `4qwimg' on page 38 undefined on input line 59.
-
-
-LaTeX Warning: Reference `4qwdev' on page 38 undefined on input line 59.
-
-File: 10QW_devplot.png Graphic file (type png)
-<use 10QW_devplot.png>
-Package pdftex.def Info: 10QW_devplot.png used on input line 63.
-(pdftex.def)             Requested size: 375.80542pt x 253.29335pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: 10QW_devplot.png Graphic file (type png)
-<use 10QW_devplot.png>
-Package pdftex.def Info: 10QW_devplot.png used on input line 69.
-(pdftex.def)             Requested size: 375.80542pt x 253.29335pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38] [39]
-
-LaTeX Warning: Reference `iqdmap' on page 40 undefined on input line 80.
-
-
-LaTeX Warning: Reference `iqdDev' on page 40 undefined on input line 80.
-
-
-./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \item I
-            QD experiment\\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \item I
-            QD experiment\\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapter4.tex:84: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \item I
-            QD experiment\\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapter4.tex:86: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{itemize}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[40]) [41] (./thesis-master.aux)
+]) [51] (./thesis-master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2058,13 +2077,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9368 strings out of 493089
- 168229 string characters out of 6134842
- 207483 words of memory out of 5000000
- 12737 multiletter control sequences out of 15000+600000
+ 9418 strings out of 493089
+ 168688 string characters out of 6134842
+ 211648 words of memory out of 5000000
+ 12777 multiletter control sequences out of 15000+600000
  11426 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,39p,10389b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,39p,10389b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -2077,10 +2096,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis-master.pdf (52 pages, 4783075 bytes).
+Output written on thesis-master.pdf (63 pages, 7711930 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
+ 626 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
