@@ -37,7 +37,7 @@ where $E_{avg}$ is the average emission energy for the whole PL picture, and $i,
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = .8\textwidth]{10QW_devplot.png}
+\includegraphics[width = .8\textwidth]{10qw2px.png}
 \caption{ \doublespacing A $\mu$PL energy deviation image for the 10QW sample. Note the energy deviation was found to be 0.1meV, peak to peak, at maximum.}
 \label{devmap10QW}
 \end{figure}
@@ -48,7 +48,7 @@ where $E_{avg}$ is the average emission energy for the whole PL picture, and $i,
 \label{de}
 \delta E = \frac{h^2 \pi^2}{2 \mu_{HH}}\Big ( \frac{1}{(L^* \pm a)^2}- \frac{1}{L^{*^2}} \Big )
 \end{equation}
-where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass \cite{glinka, santos}. We saw energy deviations of about \ref{0.1}meVpp, which was five times less than expected. This discrepancy was due for the most part to signal averaging within the 10QW sample PL image: the relatively weak PL signal from spots in the wells which deviated from average width was most likely from the first few wells, and not all 10QWs. Additionally, since we looked only at the maximum amplitude PL signal from each point in the sample, due to the random distribution of disorder, the maximum PL energies at each PL image location would tend to be close to the average PL energy for the whole sample, as the signal at each location was presumably an average over the QW emission from each well at each imaging location. In other words: the way we took our PL image meant that any disorder deviations we saw would be due to the additive effects of disorder over multiple wells, meaning that disorder fluctuations were smaller than expected in the one QW limit. Using Equation 4.2, we expect energy deviations of roughly 0.5meV for disorder variations of one crystal monolayer. Anything less than this corresponds to no measured well width variations whatsoever. However, we do measure energy deviations in our $\mu$PL images. What we are measuring is the averaged width fluctuations over a number of quantum wells, not width fluctuations for just one well.
+where $\delta E$ is the PL energy deviation due to a well width fluctuation of $\pm a$, $\mu_{HH}$ is the heavy-hole reduced mass, and $L^* = L+2\delta$ is the effective well width accounting for electron wave-function penetration of $15$\AA ~ into the AlGaAs barrier, and $\mu_{HH} = 0.055m_e$ is the reduced exciton mass \cite{glinka, santos}. We saw energy deviations of about 0.1meVpp, which was five times less than expected. This discrepancy was due for the most part to signal averaging within the 10QW sample PL image: the relatively weak PL signal from spots in the wells which deviated from average width was most likely from the first few wells, and not all 10QWs. Additionally, since we looked only at the maximum amplitude PL signal from each point in the sample, due to the random distribution of disorder, the maximum PL energies at each PL image location would tend to be close to the average PL energy for the whole sample, as the signal at each location was presumably an average over the QW emission from each well at each imaging location. In other words: the way we took our PL image meant that any disorder deviations we saw would be due to the additive effects of disorder over multiple wells, meaning that disorder fluctuations were smaller than expected in the one QW limit. Using Equation 4.2, we expect energy deviations of roughly 0.5meV for disorder variations of one crystal monolayer. Anything less than this corresponds to no measured well width variations whatsoever. However, we do measure energy deviations in our $\mu$PL images. What we are measuring is the averaged width fluctuations over a number of quantum wells, not width fluctuations for just one well.
 
 
 
@@ -91,35 +91,40 @@ Because the 10QW PL energy deviations due disorder were fairly small, we decided
 
 \indent Traditionally, PLE is done by monitoring emission intensity at a single wavelength \cite{borri}, but with our experiment, we are able to measure a full spectrum at each excitation wavelength. This ability means that our PLE spectra are more rich, as they provide simultaneous information of both narrow and wide well emission. Taking vertical slices along the emission peaks from the narrow and wide wells, we obtain information on exciton population by monitoring the emission amplitudes. We can then plot PLE emission amplitude as a function of excitation wavelength and monitor the strength of the Stokes- and anti-Stokes cross peaks as well as other peaks in emission corresponding to exciton ground and excited state emission. Figure \ref{traces} is an assembly of vertical PLE slices for three PLE spectra recorded at 10K. Note: as the barrier width decreases, the strength of the Stokes- and anti-Stokes peaks increases. 
 
+\newpage
 
-
-\indent Figure \ref{traces} shows increased coupling between wells as barrier width decreases: both the red dashed trace peak around 1.46eV and the blue trace peak around 1.47eV increase as barrier width decreases. We measure, then, what we expect qualitatively: as AQWs get closer together, the incoherent coupling between excitons in each well increases. However, we were initially surprised that we measured coupling in the anti-Stokes direction. Intuitively, one would expect that an exciton in the wider well, because it exists at a slightly lower energy, would not be able to emit from a state in the narrower well. We suspected, therefore, that coupling in the anti-Stokes direction would be a temperature mediated process. As a result, we took PLE data on all three barrier sizes and monitored the cross-peak intensity as a function of temperature. Figure \ref{xpkintensity} shows that the coupling between wells seems to be a temperature mediated process in the 10nm and 30nm barrier samples. However, in the 5nm barrier sample, the temperature dependance of coupling seems to be vanishingly small if any, likely because the barrier acts more like a perturbation to the exciton ground state than a true well barrier. In the lower set of figures, the cross-peak intensity is normalized to the resonant peak intensity by measuring the wings of the resonant peak at three locations: on resonance, and at slightly lower and higher detection frequencies. Then, because the resonant peak was obscured by the laser scatter signal, we estimate the hight of the resonant peak using the shape and intensity of the peak wings. We then use the estimated resonant peak height to normalize the cross-peaks so we can compare the height of the cross-peaks to the height of the resonant peaks and comment on the coupling emission intensity relative to the resonant emission intensity. Others have seen similar temperature-dependence of coupling in the anti-Stokes direction, \cite{borri} but have failed to provide a model that accounts for the intensity of the coupling peaks as a function of temperature and of barrier width. 
-\begin{figure}
+\begin{figure}[!h]
 \centering
-\includegraphics[width = .8\textwidth]{Layout5.jpg}
+\includegraphics[width = .7\textwidth]{Layout5.jpg}
 \caption{ \doublespacing An example PLE spectrum taken on a 10nm barrier AQW sample. We were able to monitor the emission from both wells as a function of excitation frequency, which allowed us to simultaneously quantify emission from one well due to resonant excitation and emission from the adjacent well due to coupling. The lower energy vertical trace corresponds to emission from the wide well while the higher energy trace corresponds to emission from the narrow well. The white diagonal line is laser scatter, and represents locations of equal excitation and detection frequencies.}
 \label{scan}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[!h]
 \centering
-\includegraphics[width = .8\textwidth]{Layouttryit.jpg}
+\includegraphics[width = .65\textwidth]{Layouttryit.jpg}
 \caption{ \doublespacing A close-up of the coupling cross-peaks. The green, dashed circle corresponds to a coupling peak between wells in the Stokes direction: the narrow well absorbs the laser excitation, while the wide wells emit a portion of the absorbed energy. The orange, dashed circle corresponds to a coupling peak in the anti-Stokes direction: the wide well absorbs and the narrow well emits a portion of the excitation energy. The magenta circle corresponds to resonant excitation in the narrow well, and the turquoise circle corresponds to resonant excitation in the wide well. The diagonal white trace is the laser scatter.}
 \label{peakscheme}
 \end{figure}
+\newpage \indent Figure \ref{traces} shows increased coupling between wells as barrier width decreases: both the red dashed trace peak around 1.46eV and the blue trace peak around 1.47eV increase as barrier width decreases. We measure, then, what we expect qualitatively: as AQWs get closer together, the incoherent coupling between excitons in each well increases. However, we were initially surprised that we measured coupling in the anti-Stokes direction. Intuitively, one would expect that an exciton in the wider well, because it exists at a slightly lower energy, would not be able to emit from a state in the narrower well. We suspected, therefore, that coupling in the anti-Stokes direction would be a temperature mediated process. As a result, we took PLE data on all three barrier sizes and monitored the cross-peak intensity as a function of temperature. 
 
-\begin{figure}
+\begin{figure}[!h]
 \centering
-\includegraphics[width = 1.1\textwidth]{Layout2.pdf}
+\includegraphics[width = \textwidth]{Layout2.pdf}
 \caption{ \doublespacing A set of three PLE vertical profiles taken at the wavelength of peak emission intensity for a) the 30nm, b) the 10nm, and c) the 5nm barrier width AQW. Note: the narrow well emission intensity was much lower than the wide well emission intensity, and was scaled up for graphical comparison. For each sample, the most intense peaks correspond to resonant excitation and absorption. The coupling intensity can be measured by looking at the intensity of the cross peaks, represented by the slightly smaller peaks under each of the resonant excitation peaks.} 
 \label{traces}
 \end{figure}
-\begin{figure}
+
+
+
+\begin{figure}[!h]
 \centering
-\includegraphics[width = \textwidth]{Layoutple2.pdf}
+\includegraphics[width = .7\textwidth]{Layoutple2.pdf}
 \caption{ \doublespacing Temperature dependance for the PLE coupling peaks for barrier width of a) 30nm, b) 10nm, and c) 5nm. The top plots are un-normalized coupling peak intensities, while in the bottom plots, the cross-peak intensity is normalized to the resonant peak intensity. The coupling intensity seems to peak have a temperature peak for the 30nm and 10nm barrier samples. The coupling peak intensities in both the normalized and unnormalized plots for these two samples decrease as sample temperature increases, suggesting that coupling is temperature mediated. However, in the 5nm barrier, there seems to be little temperature dependance of coupling intensity in the normalized plot.} 
 \label{xpkintensity}
 \end{figure}
+\indent Figure \ref{xpkintensity} shows that the coupling between wells seems to be a temperature mediated process in the 10nm and 30nm barrier samples. However, in the 5nm barrier sample, the temperature dependance of coupling seems to be vanishingly small if any, likely because the barrier acts more like a perturbation to the exciton ground state than a true well barrier. In the lower set of figures, the cross-peak intensity is normalized to the resonant peak intensity by measuring the wings of the resonant peak at three locations: on resonance, and at slightly lower and higher detection frequencies. Then, because the resonant peak was obscured by the laser scatter signal, we estimate the hight of the resonant peak using the shape and intensity of the peak wings. We then use the estimated resonant peak height to normalize the cross-peaks so we can compare the height of the cross-peaks to the height of the resonant peaks and comment on the coupling emission intensity relative to the resonant emission intensity. Others have seen similar temperature-dependence of coupling in the anti-Stokes direction, \cite{borri} but have failed to provide a model that accounts for the intensity of the coupling peaks as a function of temperature and of barrier width. 
+
 %\begin{itemize}
 %\item PLE curve analysis\\
 %show stock PLE curve, show slices, say what they mean, show peaks, say what peaks mean
